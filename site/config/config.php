@@ -33,6 +33,8 @@ c::set('debug', true);
 
 // c::set('whoops', false);
 
+c::set('content.file.extension','md');
+
 c::set('language.detect', true);
 
 c::set('languages', array(
