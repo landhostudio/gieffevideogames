@@ -1,0 +1,132 @@
+title:
+  en: Home
+  it: Home
+
+files:
+  type: image
+
+pages: false
+
+fields:
+  seoHeadline:
+    label:
+      en: SEO
+      it: SEO
+    type: headline
+
+  title:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  description:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  tags:
+    label:
+      en: Keywords
+      it: Keywords
+    type: tags
+    lower: true
+    index: all
+
+  heroHeadline:
+    label:
+      en: Hero
+      it: Hero
+    type: headline
+
+  heroGallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+
+  heroTitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  heroText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  heroCTATitle:
+    label:
+      en: CTA name
+      it: Nome CTA
+    type: text
+    width: 1/2
+
+  heroCTAUrl:
+    label:
+      en: CTA link
+      it: Link CTA
+    width: 1/2
+    type: quickselect
+    options: query
+    query:
+      fetch: pages
+      value: '{{uri}}'
+      text: '{{title}}'
+
+  sectionsHeadline:
+    label: Sections
+    type: headline
+
+  sections:
+    label:
+      en: Sections
+      it: Sezioni
+    type: structure
+    entry: >
+      {{title}}
+    modalsize: large
+    fields:
+      image:
+        label:
+          en: Image
+          it: Immagine
+        type: image
+        required: true
+
+      title:
+        label:
+          en: Title
+          it: Titolo
+        type: text
+        required: true
+
+      description:
+        label:
+          en: Description
+          it: Descrizione
+        type: textarea
+        buttons: false
+        required: true
+
+      CTATitle:
+        label:
+          en: CTA name
+          it: Nome CTA
+        type: text
+        width: 1/2
+
+      CTAUrl:
+        label:
+          en: CTA link
+          it: Link CTA
+        width: 1/2
+        type: quickselect
+        options: query
+        query:
+          fetch: pages
+          value: '{{uri}}'
+          text: '{{title}}'

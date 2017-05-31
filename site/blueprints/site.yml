@@ -1,0 +1,122 @@
+title: Site
+
+pages: default
+
+fields:
+  seoHeadline:
+    label:
+      en: SEO
+      it: SEO
+    type: headline
+
+  title:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  description:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  keywords:
+    label:
+      en: Keywords
+      it: Keywords
+    type: tags
+    lower: true
+    index: all
+
+  partnersHeadline:
+    label:
+      en: Partners
+      it: Partners
+    type: headline
+
+  partners:
+    label:
+      en: Partners
+      it: Partners
+    type: structure
+    entry: >
+      {{url}}
+    modalsize: small
+    fields:
+      image:
+        label:
+          en: Image
+          it: Immagine
+        type: image
+        required: true
+
+      url:
+        label:
+          en: Link
+          it: Link
+        type: url
+        required: true
+
+  CTAHeadline:
+    label:
+      en: CTA
+      it: CTA
+    type: headline
+
+  CTATitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  CTAText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  CTAButtonTitle:
+    label:
+      en: CTA name
+      it: Nome CTA
+    type: text
+    width: 1/2
+
+  CTAButtonEmail:
+    label:
+      en: CTA Email
+      it: Email CTA
+    width: 1/2
+    type: email
+
+  footerHeadline:
+    label:
+      en: Footer
+      it: Footer
+    type: headline
+
+  youtube:
+    label:
+      en: YouTube
+      it: YouTube
+    type: url
+    width: 1/3
+
+  facebook:
+    label:
+      en: Facebook
+      it: Facebook
+    type: url
+    width: 1/3
+
+  instagram:
+    label:
+      en: Instagram
+      it: Instagram
+    type: url
+    width: 1/3
+
+  copyright:
+    label: Copyright
+    type:  textarea

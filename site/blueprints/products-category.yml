@@ -1,0 +1,65 @@
+title:
+  en: Product category
+  it: Categoria prodotti
+
+files:
+  type: image
+
+pages:
+  template:
+    - product
+    - products-category
+
+options:
+  template: false
+
+fields:
+  seoHeadline:
+    label:
+      en: SEO
+      it: SEO
+    type: headline
+
+  title:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  description:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  tags:
+    label:
+      en: Keywords
+      it: Keywords
+    type: tags
+    lower: true
+    index: all
+  
+  heroHeadline:
+    label:
+      en: Hero
+      it: Hero
+    type: headline
+
+  heroImage:
+    label:
+      en: Image
+      it: Immagine
+    type: image
+
+  heroTitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  heroText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea

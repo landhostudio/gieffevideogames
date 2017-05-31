@@ -1,0 +1,133 @@
+title:
+  en: Product
+  it: Prodotto
+
+files:
+  sortable: true
+  type:
+    - image
+    - video
+    - document
+
+pages: false
+
+options:
+  template: false
+
+fields:
+  seoHeadline:
+    label:
+      en: SEO
+      it: SEO
+    type: headline
+
+  title:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  description:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  tags:
+    label:
+      en: Keywords
+      it: Keywords
+    type: tags
+    lower: true
+    index: all
+
+  heroHeadline:
+    label:
+      en: Hero
+      it: Hero
+    type: headline
+
+  heroImage:
+    label:
+      en: Image
+      it: Immagine
+    type: image
+
+  heroTitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  heroText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  productHeadline:
+    label:
+      en: Media
+      it: Media
+    type: headline
+
+  gallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+
+  video:
+    label:
+      en: Video
+      it: Video
+    type: quickselect
+    options: videos
+    width: 1/2
+
+  document:
+    label:
+      en: Document
+      it: Documento
+    type: quickselect
+    options: documents
+    width: 1/2
+
+  bodyHeadline:
+    label:
+      en: Body
+      it: Body
+    type: headline
+
+  text:
+    label:
+      en: Text
+      it: Testo
+    type: textarea
+
+  specsHeadline:
+    label:
+      en: Tech specs
+      it: Specifiche tecniche
+    type: headline
+
+  specs:
+    label:
+      en: Table
+      it: Tabella
+    type: structure
+    entry: >
+      {{title}}
+    modalsize: large
+    fields:
+      title:
+        label:
+          en: Title
+          it: Titolo
+        type: text
+      description:
+        label:
+          en: Description
+          it: Descrizione
+        type: textarea
+        buttons: false

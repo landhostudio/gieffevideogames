@@ -1,0 +1,86 @@
+title:
+  en: Contact
+  it: Contatti
+
+files: false
+
+pages: false
+
+fields:
+  seoHeadline:
+    label:
+      en: SEO
+      it: SEO
+    type: headline
+
+  title:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  description:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  tags:
+    label:
+      en: Keywords
+      it: Keywords
+    type: tags
+    lower: true
+    index: all
+
+  heroHeadline:
+    label:
+      en: Hero
+      it: Hero
+    type: headline
+
+  heroGallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+
+  heroTitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  heroText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  bodyHeadline:
+    label:
+      en: Body
+      it: Body
+    type: headline
+
+  text:
+    label:
+      en: Text
+      it: Testo
+    type: textarea
+
+  mapHeadline:
+    label:
+      en: Map
+      it: Mappa
+    type: headline
+
+  map:
+    label:
+      en: Map
+      it: Mappa
+    type: map
+    center:
+      lat: 41.86956082
+      lng: 12.48046875
+      zoom: 6

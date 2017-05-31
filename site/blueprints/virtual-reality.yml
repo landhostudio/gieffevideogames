@@ -1,0 +1,139 @@
+title:
+  en: Virtual Reality
+  it: Realtà Virtuale
+
+files:
+  type: image
+
+pages: false
+
+fields:
+  seoHeadline:
+    label:
+      en: SEO
+      it: SEO
+    type: headline
+
+  title:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  description:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  tags:
+    label:
+      en: Keywords
+      it: Keywords
+    type: tags
+    lower: true
+    index: all
+
+  heroHeadline:
+    label:
+      en: Hero
+      it: Hero
+    type: headline
+
+  heroGallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+
+  heroTitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  heroText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  sectionsHeadline:
+    label: Sections
+    type: headline
+
+  sections:
+    label:
+      en: Sections
+      it: Sezioni
+    type: structure
+    entry: >
+      {{title}}
+    modalsize: large
+    fields:
+      image:
+        label:
+          en: Image
+          it: Immagine
+        type: image
+        required: true
+
+      title:
+        label:
+          en: Title
+          it: Titolo
+        type: text
+        required: true
+
+      description:
+        label:
+          en: Description
+          it: Descrizione
+        type: textarea
+        buttons: false
+        required: true
+
+  productsHeadline:
+    label: Products
+    type: headline
+
+  products:
+    label:
+      en: Products
+      it: Prodotti
+    type: structure
+    entry: {{product}}
+    modalsize: large
+    fields:
+      product:
+        label:
+          en: Product
+          it: Prodotto
+        type: quickselect
+        options: query
+        query:
+          fetch: pages
+          template: product
+          value: '{{uri}}'
+          text: '{{title}}'
+        required: true
+
+  productsCTATitle:
+    label:
+      en: CTA name
+      it: Nome CTA
+    type: text
+    width: 1/2
+
+  productsCTAUrl:
+    label:
+      en: CTA link
+      it: Link CTA
+    width: 1/2
+    type: quickselect
+    options: query
+    query:
+      fetch: pages
+      template: products-category
+      value: '{{uri}}'
+      text: '{{title}}'

@@ -1,0 +1,93 @@
+title:
+  en: Locations
+  it: Location
+
+files:
+  type: image
+
+pages: false
+
+fields:
+  seoHeadline:
+    label:
+      en: SEO
+      it: SEO
+    type: headline
+
+  title:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  description:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  tags:
+    label:
+      en: Keywords
+      it: Keywords
+    type: tags
+    lower: true
+    index: all
+
+  heroHeadline:
+    label:
+      en: Hero
+      it: Hero
+    type: headline
+
+  heroGallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+
+  heroTitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  heroText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  sectionsHeadline:
+    label:
+      en: Locations
+      it: Location
+    type: headline
+
+  locations:
+    label:
+      en: Locations
+      it: Location
+    type: structure
+    entry: >
+      {{title}}
+    modalsize: large
+    fields:
+      image:
+        label:
+          en: Image
+          it: Immagine
+        type: image
+
+      title:
+        label:
+          en: Title
+          it: Titolo
+        type: text
+        required: true
+
+      text:
+        label:
+          en: Text
+          it: Testo
+        type: textarea

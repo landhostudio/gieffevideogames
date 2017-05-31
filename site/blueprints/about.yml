@@ -1,0 +1,111 @@
+title:
+  en: About
+  it: Chi siamo
+
+files:
+  type: image
+
+pages: false
+  
+fields:
+  seoHeadline:
+    label:
+      en: SEO
+      it: SEO
+    type: headline
+
+  title:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  description:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  tags:
+    label:
+      en: Keywords
+      it: Keywords
+    type: tags
+    lower: true
+    index: all
+
+  heroHeadline:
+    label:
+      en: Hero
+      it: Hero
+    type: headline
+
+  heroGallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+
+  heroTitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  heroText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+
+  bodyHeadline:
+    label:
+      en: Body
+      it: Body
+    type: headline
+
+  text:
+    label:
+      en: Text
+      it: Testo
+    type: textarea
+
+  specsHeadline:
+    label:
+      en: Team
+      it: Team
+    type: headline
+
+  team:
+    label:
+      en: Persons
+      it: Persone
+    type: structure
+    entry: >
+      {{name}}
+    modalsize: large
+    fields:
+      image:
+        label:
+          en: Image
+          it: Immagine
+        type: image
+      name:
+        label:
+          en: Name
+          it: Nome
+        type: text
+        width: 1/2
+        required: true
+      role:
+        label:
+          en: Role
+          it: Ruolo
+        type: text
+        width: 1/2
+        required: true
+      text:
+        label:
+          en: Description
+          it: Descrizione
+        type: textarea

@@ -1,0 +1,66 @@
+Title: Chi Siamo
+
+----
+
+Description: Descrizione SEO su chi siamo
+
+----
+
+Tags: chi siamo
+
+----
+
+Herogallery:
+
+----
+
+Herotitle: Chi Siamo
+
+----
+
+Herotext: Descrizione su chi siamo
+
+----
+
+Text: Testo su chi siamo
+
+----
+
+Team:
+
+-
+  image: person-1.jpg
+  name: Elmer Hoffman
+  role: CEO
+-
+  image: person-2.jpg
+  name: Jenifer Dalls
+  role: CTO
+-
+  image: person-3.jpg
+  name: Hallie Gonzalez
+  role: Commerciale
+-
+  image: person-4.jpg
+  name: Justin Bell
+  role: Tecnico
+-
+  image: person-5.jpg
+  name: Linnie Howell
+  role: Ingegnere
+-
+  image: person-6.jpg
+  name: Grace Kim
+  role: Commerciale
+-
+  image: person-7.jpg
+  name: Eunice Tucker
+  role: Consulente
+-
+  image: person-8.jpg
+  name: Kevin Dawson
+  role: Tecnico
+
+----
+
+Url-key: chi-siamo
