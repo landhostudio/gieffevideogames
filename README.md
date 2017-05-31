@@ -14,7 +14,7 @@ Official site for Gieffe Videogames
 2. Install [bower](https://bower.io/)
 3. Run `npm install` to download all the task runners dependencies
 4. Run `bower install` to download all the front-end dependencies
-5. Build project assets running `gulp`
+5. Build project assets running `gulp` **build assets is required as initial step for serving site over server**
 6. Open watch server with run `gulp watch`
 
 ## License
