@@ -11,7 +11,7 @@
       <?php else : ?>
         <h3><?= $article->title()->html() ?></h3>
       <?php endif; ?>
-      <p><?= $article->text()->kirbytext()->excerpt(25, 'words') ?></p>
+      <p><?= $article->text()->kirbytext()->excerpt( 25, 'words' ) ?></p>
     </div>
   </a>
   <?php snippet( 'meta', array( 'article' => $article ) ); ?>

@@ -1,15 +1,15 @@
-<?php snippet('header') ?>
+<?php snippet( 'header' ) ?>
 
 <section>
 
   <?php
-    snippet('hero');
-    snippet('products');
+    snippet( 'hero' );
+    snippet( 'products' );
   ?>
 
 </section>
 
 <?php
-  snippet('cta');
-  snippet('footer');
+  snippet( 'cta' );
+  snippet( 'footer' );
 ?>

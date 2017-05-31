@@ -2,6 +2,7 @@
 
 l::set( 'menu.title',       'Navigazione' );
 l::set( 'products.title',   'Prodotti' );
+l::set( 'products.specs',   'Specifiche del prodotto' );
 l::set( 'partners.title',   'Partners' );
 l::set( 'team.title',       'Team' );
 l::set( 'categories.title', 'Categorie' );

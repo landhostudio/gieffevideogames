@@ -1,7 +1,8 @@
 <?php
 
 l::set( 'menu.title',       'Navigation' );
-l::set( 'products.title',   'Prodotti' );
+l::set( 'products.title',   'Products' );
+l::set( 'products.specs',   'Product specs' );
 l::set( 'partners.title',   'Partners' );
 l::set( 'team.title',       'Team' );
 l::set( 'categories.title', 'Categories' );

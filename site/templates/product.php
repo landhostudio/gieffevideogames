@@ -18,7 +18,7 @@
 
   <?php if ( $page->specs() ) : ?>
     <section class="specs">
-      <h3 class="hidden">Product specs</h3>
+      <h3 class="hidden"><?= l( 'product.specs' ) ?></h3>
       <dl>
         <?php foreach ( $page->specs()->yaml() as $spec ) : ?>
           <dt class="specs-header"><?= $spec[ 'title' ] ?></dt>
