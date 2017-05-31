@@ -6,7 +6,7 @@
 	url = https://github.com/getkirby/panel.git
 [submodule "site/plugins/images"]
 	path = site/plugins/images
-	url = https://github.com/AugustMiller/kirby-map-field.git
+	url = https://github.com/medienbaecker/kirby-images.git
 [submodule "site/plugins/map"]
 	path = site/plugins/map
 	url = https://github.com/AugustMiller/kirby-map-field.git
