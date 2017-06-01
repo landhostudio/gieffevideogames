@@ -1,2 +1,76 @@
-$color-1: #000
-$color-2: #fff
+// Colors ----------------------------------------------------------------------
+
+$color-1: #0D0217
+$color-2: #FFF
+$color-3: #FF1016
+$color-4: #00AFEF
+$color-5: #7ED321
+
+// Shadows ---------------------------------------------------------------------
+// text-shadow: $shadow-1
+
+$shadow-args: 0 0 em-calc(1)
+
+$shadow-1: $shadow-args $color-1
+$shadow-2: $shadow-args $color-2
+$shadow-3: $shadow-args $color-3
+$shadow-4: $shadow-args $color-4
+$shadow-5: $shadow-args $color-5
+
+// Glows -----------------------------------------------------------------------
+// box-shadow: $glow-1
+
+$glow-args: 0 0 em-calc(6) 0
+
+$glow-1: $glow-args darken($color-1, 7.5%)
+$glow-2: $glow-args darken($color-2, 7.5%)
+$glow-3: $glow-args darken($color-3, 7.5%)
+$glow-4: $glow-args darken($color-4, 7.5%)
+$glow-5: $glow-args darken($color-5, 7.5%)
+
+$glow-interact-args: 0 0 em-calc(12) 0
+
+$glow-interact-1: $glow-interact-args darken($color-1, 7.5%)
+$glow-interact-2: $glow-interact-args darken($color-2, 7.5%)
+$glow-interact-3: $glow-interact-args darken($color-3, 7.5%)
+$glow-interact-4: $glow-interact-args darken($color-4, 7.5%)
+$glow-interact-5: $glow-interact-args darken($color-5, 7.5%)
+
+// Borders ---------------------------------------------------------------------
+
+$border-args: em-calc(1) solid
+
+$border-1: $border-args lighten($color-1, 7.5%)
+$border-2: $border-args lighten($color-2, 7.5%)
+$border-3: $border-args lighten($color-3, 10%)
+$border-4: $border-args lighten($color-4, 7.5%)
+$border-5: $border-args lighten($color-5, 7.5%)
+
+// Typography ------------------------------------------------------------------
+
+$type-family-1: 'Poppins', serif
+$type-family-2: $type-family-1
+
+$line-height-1: 1.5
+$line-height-2: 1
+
+$font-weight-1: 400
+$font-weight-2: 600
+
+// Media Queries ---------------------------------------------------------------
+// @include media($size-s-min)
+// @include media(max-width $size-s-max)
+
+$size-s-min: em-calc(768)
+$size-s-max: $size-s-min - em-calc(1)
+
+$size-m-min: em-calc(1024)
+$size-m-max: $size-m-min - em-calc(1)
+
+$size-l-min: em-calc(1280)
+$size-l-max: $size-l-min - em-calc(1)
+
+// Spacing ---------------------------------------------------------------------
+
+$container: em-calc(1140)
+$space: em-calc(16)
