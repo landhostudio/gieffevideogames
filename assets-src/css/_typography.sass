@@ -1,0 +1,59 @@
+html
+  font-family: $type-family-1
+  line-height: $line-height-1
+  font-weight: $font-weight-1
+  -webkit-font-smoothing: antialiased
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6
+  font-family: $type-family-2
+  line-height: $line-height-2
+  font-weight: $font-weight-2
+
+h1, .h1
+  font-size: em-calc(52)
+  letter-spacing: - em-calc(1)
+
+h2, .h2
+  font-size: em-calc(44)
+  letter-spacing: - em-calc(1)
+
+h3, .h3
+  font-size: em-calc(20)
+
+h4, .h4
+  font-size: em-calc(14)
+  text-transform: uppercase
+  letter-spacing: em-calc(1)
+
+h5, .h5
+  @extend .h4
+
+h6, .h6
+  @extend .h4
+
+strong, b
+  font-weight: $font-weight-2
+
+// Color -----------------------------------------------------------------------
+
+.text
+  &-color-1
+    color: $color-2
+    text-shadow: $shadow-2
+  &-color-2
+    color: $color-3
+    text-shadow: $shadow-3
+  &-color-3
+    color: $color-4
+    text-shadow: $shadow-4
+  &-color-4
+    color: $color-5
+    text-shadow: $shadow-5
+
+a
+  color: currentColor
