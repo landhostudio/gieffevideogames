@@ -1,45 +1,63 @@
     <footer role="contentinfo" class="footer">
+      <div class="container">
       
-      <div class="footer-logo">
-        <a href="<?= $site->language()->url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </div>
+        <div class="footer-logo">
+          <a href="<?= $site->language()->url() ?>" rel="home">
+            <span class="hidden"><?= $site->title()->html() ?></span>
+            <?php if ( $page->template() == 'virtual-reality' ) : ?>
+              <img src="<?= url('assets/images/logo-2.png') ?>" alt="">
+            <?php else: ?>
+              <img src="<?= url('assets/images/logo-1.png') ?>" alt="">
+            <?php endif; ?>
+          </a>
+        </div>
 
-      <div class="footer-menu">
-        <ul>
-          <?php foreach($pages->visible() as $item): ?>
-            <li>
-              <a href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
-            </li>
-          <?php endforeach ?>
-        </ul>
-      </div>
-
-      <?php if ( $site->youtube() || $site->facebook() || $site->instagram() ) : ?>
-        <div class="footer-social">
-          <ul>
-            <?php if ( $site->youtube() ) : ?>
-              <li>
-                <a href="<?= $site->youtube(); ?>" rel="nofollow" target="_blank">YouTube</a>
+        <div class="footer-menu">
+          <ul class="footer-menu-items">
+            <?php foreach($pages->visible() as $item): ?>
+              <li class="footer-menu-item">
+                <a href="<?= $item->url() ?>" class="menu-link<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-3<?php endif; ?>"><?= $item->title()->html() ?></a>
               </li>
-            <?php endif; ?>
-            <?php if ( $site->facebook() ) : ?>
-              <li>
-                <a href="<?= $site->facebook(); ?>" rel="nofollow" target="_blank">Facebook</a>
-              </li>
-            <?php endif; ?>
-            <?php if ( $site->instagram() ) : ?>
-              <li>
-                <a href="<?= $site->instagram(); ?>" rel="nofollow" target="_blank">Instagram</a>
-              </li>
-            <?php endif; ?>
+            <?php endforeach ?>
           </ul>
         </div>
-      <?php endif; ?>
 
-      <div class="footer-copyright">
-        <p><?php echo html::decode( $site->copyright()->kirbytext() ); ?></p>
+        <?php if ( $site->youtube() || $site->facebook() || $site->instagram() ) : ?>
+          <div class="footer-social<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-2<?php endif; ?>">
+            <ul class="footer-social-items">
+              <?php if ( $site->facebook() ) : ?>
+                <li class="footer-social-item">
+                  <a href="<?= $site->facebook(); ?>" rel="nofollow" target="_blank" class="footer-social-link">
+                    <span class="hidden">Facebook</span>
+                    <?= ( new Asset( "assets/images/facebook.svg" ) )->content() ?>
+                  </a>
+                </li>
+              <?php endif; ?>
+              <?php if ( $site->youtube() ) : ?>
+                <li class="footer-social-item">
+                  <a href="<?= $site->youtube(); ?>" rel="nofollow" target="_blank" class="footer-social-link">
+                    <span class="hidden">YouTube</span>
+                    <?= ( new Asset( "assets/images/youtube.svg" ) )->content() ?>
+                  </a>
+                </li>
+              <?php endif; ?>
+              <?php if ( $site->instagram() ) : ?>
+                <li class="footer-social-item">
+                  <a href="<?= $site->instagram(); ?>" rel="nofollow" target="_blank" class="footer-social-link">
+                    <span class="hidden">Instagram</span>
+                    <?= ( new Asset( "assets/images/instagram.svg" ) )->content() ?>
+                  </a>
+                </li>
+              <?php endif; ?>
+            </ul>
+          </div>
+        <?php endif; ?>
+
+        <div class="footer-copyright">
+          <p class="<?php if ( $page->template() == 'virtual-reality' ) : ?>text-color-4-alt<?php else : ?>text-color-2<?php endif; ?>"><?php echo html::decode( $site->copyright()->kirbytext() ); ?></p>
+        </div>
+
       </div>
-
     </footer>
 
     <?=

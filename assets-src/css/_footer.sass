@@ -1,0 +1,95 @@
+.footer
+  .container
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    padding-top: $space / 2
+    padding-bottom: $space / 2
+
+    @include media($size-l-min)
+      padding-top: $space
+      padding-bottom: $space
+
+  &-logo,
+  &-menu,
+  &-social,
+  &-copyright
+    @include media(max-width $size-l-max)
+      flex-basis: 100%
+      text-align: center
+
+  &-logo
+    img
+      max-height: em-calc(80)
+      @include media($size-s-min)
+        max-height: em-calc(90)
+
+  &-menu
+    &-items
+      list-style: none
+      padding: 0
+      margin: 0
+      @include media(min-width #{em-calc(600)} max-width $size-l-max)
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+    &-item
+      @include media(max-width $size-l-max)
+        display: block
+      @include media(min-width #{em-calc(600)} max-width $size-l-max)
+        flex-basis: 33.333%
+      @include media($size-l-min)
+        display: inline-block
+
+      a
+        font-size: rem-calc(14)
+        text-decoration: none
+        @include media(max-width $size-l-max)
+          display: block
+          padding-top: $space / 2
+          padding-bottom: $space / 2
+        @include media($size-l-min)
+          padding: $space
+        &:focus,
+        &:hover
+          opacity: 0.75
+
+  &-social
+    @include media(max-width $size-l-max)
+      border-top: rem-calc(1) solid currentColor
+      padding-top: $space
+      margin-top: $space
+    &-items
+      list-style: none
+      padding: 0
+      margin: 0
+      @include media(max-width $size-l-max)
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+    &-item
+      @include media(max-width $size-l-max)
+        flex-basis: 1
+      @include media($size-l-min)
+        display: inline-block
+    &-link
+      display: block
+      line-height: 0
+      filter: drop-shadow(0 0 rem-calc(6) currentColor)
+      padding: $space / 2
+      
+      &:focus,
+      &:hover
+        opacity: 0.75
+      
+      svg
+        max-height: em-calc(24)
+      
+  &-copyright
+    flex-basis: 100%
+    text-align: center
+    @include media(max-width $size-l-max)
+      margin-top: $space * 2
+    p
+      font-size: em-calc(10)
