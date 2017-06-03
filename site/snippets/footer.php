@@ -40,12 +40,13 @@
         <p><?php echo html::decode( $site->copyright()->kirbytext() ); ?></p>
       </div>
 
-      <?=
-        js(array(
-          'assets/js/vendor.js',
-          'assets/js/main.js'
-        ))
-      ?>
     </footer>
+
+    <?=
+      js(array(
+        'assets/js/vendor.js',
+        'assets/js/main.js'
+      ))
+    ?>
   </body>
 </html>
