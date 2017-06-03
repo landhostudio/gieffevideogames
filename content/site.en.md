@@ -6,7 +6,7 @@ Description: Site SEO description
 
 ----
 
-Copyright: © (date: Year)
+Copyright: © Copyright (date: Year) Gieffe s.r.l. – VAT 000000000000
 
 ----
 
@@ -30,22 +30,22 @@ Ctabuttonemail: roman@landhostudio.com
 
 ----
 
-Partners:
+Partners: 
 
--
+- 
   image: sistering.png
   url: >
     https://www.facebook.com/SisteringCatering
--
+- 
   image: jamma.png
   url: http://www.jamma.it
--
+- 
   image: gioco-news.png
   url: http://www.gioconews.it
--
+- 
   image: timecity.png
   url: http://www.timecity.it
--
+- 
   image: aams.png
   url: https://www.agenziadoganemonopoli.gov.it
 
