@@ -134,10 +134,32 @@
     border-top: em-calc(5) dashed
     border-right: em-calc(5) solid transparent
     border-left: em-calc(5) solid transparent
-    
+
     .dropdown--active &
       border-top: none
       border-bottom: em-calc(5) dashed
+
+  // Toggle --------------------------------------------------------------------
+
+  &--hamburger
+    .hamburger-bar
+      display: block
+      background-color: currentColor
+      height: rem-calc(1)
+      width: em-calc(26)
+      box-shadow: $glow-args currentColor
+
+      + .hamburger-bar
+        margin-top: rem-calc(4)
+      
+      .header--active &
+        &:nth-child(2)
+          transform: translateY(#{rem-calc(5)}) rotate(45deg)
+        &:nth-child(3)
+          opacity: 0
+        &:nth-child(4)
+          transform: translateY(-#{rem-calc(5)}) rotate(-45deg)
+        
 
 .dropdown
   position: relative
@@ -153,11 +175,12 @@
     float: left
     width: 100%
     margin: $space / 2 0 0
+    margin: - rem-calc(1) 0 0
     padding: 0
     list-style: none
     background-color: $color-1
-    border: $border-3
-    box-shadow: $glow-3
+    border: $border-args currentColor
+    box-shadow: $glow-args currentColor
     cursor: pointer
 
     .dropdown--active &
@@ -172,8 +195,7 @@
       display: block
       text-transform: uppercase
       text-decoration: none
-      text-shadow: $shadow-2
-
+      opacity: 0.75
       &:focus,
       &:hover
-        color: $color-3        
+        opacity: 1

@@ -35,8 +35,6 @@ c::set('debug', true);
 
 c::set('content.file.extension','md');
 
-c::set('language.detect', true);
-
 c::set('languages', array(
   array(
     'code'    => 'en',

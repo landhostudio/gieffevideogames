@@ -1,5 +1,6 @@
 <?php
 
+l::set( 'header.hamburger', 'Apri la navigazione' );
 l::set( 'menu.title',       'Navigazione' );
 l::set( 'products.title',   'Prodotti' );
 l::set( 'products.specs',   'Specifiche del prodotto' );

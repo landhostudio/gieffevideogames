@@ -12,11 +12,28 @@
   </head>
   <body>
     <header role="banner" class="header">
-      <h1>
-        <a href="<?= $site->language()->url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </h1>
-      <?php
-        snippet('menu');
-        snippet('languages');
-      ?>
+      <div class="container">
+        <h1 class="header-title">
+          <a href="<?= $site->language()->url() ?>" rel="home">
+            <span class="hidden"><?= $site->title()->html() ?></span>
+            <?php if ( $page->template() == 'virtual-reality' ) : ?>
+              <img src="<?= url('assets/images/logo-2.png') ?>" alt="">
+            <?php else: ?>
+              <img src="<?= url('assets/images/logo-1.png') ?>" alt="">
+            <?php endif; ?>
+          </a>
+        </h1>
+        <div class="header-hamburger">
+          <button type="button" class="button<?php e( $page->template() == 'virtual-reality', ' button--color-4', ' button--color-2' ) ?> button--s button--outline button--hamburger">
+            <span class="hidden"><?= l( 'header.hamburger' ) ?></span>
+            <span class="hamburger-bar" aria-hidden="true"></span>
+            <span class="hamburger-bar" aria-hidden="true"></span>
+            <span class="hamburger-bar" aria-hidden="true"></span>
+          </button>
+        </div>
+        <?php
+          snippet('menu');
+          snippet('languages');
+        ?>
+      </div>
     </header>
