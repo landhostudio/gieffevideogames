@@ -6,7 +6,7 @@ Description: Descrizione dell’sito SEO
 
 ----
 
-Copyright: © (date: Year)
+Copyright: Tutti i diritti riservati © (date: Year) Gieffe s.r.l. – P.Iva 000000000000
 
 ----
 
