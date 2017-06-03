@@ -6,6 +6,15 @@
   background-color: $color-1
   z-index: 99
 
+  + *
+    margin-top: em-calc(72)
+    @include media(em-calc(360))
+      margin-top: em-calc(76)
+    @include media(em-calc(600))
+      margin-top: em-calc(96)
+    @include media($size-s-min)
+      margin-top: em-calc(122)
+
   // Container -----------------------------------------------------------------
 
   .container
