@@ -10,6 +10,10 @@ Tags: chi siamo
 
 ----
 
+Heroimage: vapor-up.jpg
+
+----
+
 Herogallery:
 
 ----
