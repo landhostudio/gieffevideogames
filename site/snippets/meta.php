@@ -1,5 +1,5 @@
 <div class="meta">
-  <ul>
+  <ul class="no-list inline-list">
     <li class="meta-date">
       <?php if ( $page->template() == 'article' ) : ?>
         <time datetime="<?= $article->date('c') ?>" rel="bookmark"><?= $article->date( l('date.format') ) ?></time>

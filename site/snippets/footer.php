@@ -13,7 +13,7 @@
         </div>
 
         <div class="footer-menu">
-          <ul class="footer-menu-items">
+          <ul class="footer-menu-items no-list">
             <?php foreach($pages->visible() as $item): ?>
               <li class="footer-menu-item">
                 <a href="<?= $item->url() ?>" class="menu-link<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-3<?php endif; ?>"><?= $item->title()->html() ?></a>
