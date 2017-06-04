@@ -1,0 +1,15 @@
+.hero
+  // GALLERY -------------------------------------------------------------------
+
+  @import "vendors/flickity"
+
+  &-gallery
+    @extend .hero-image
+    &-flickity
+      @extend .hero-image-container
+      &-item
+        @extend .hero-image-container
+        img
+          backface-visibility: hidden
+          pointer-events: none
+
