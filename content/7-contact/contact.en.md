@@ -10,7 +10,11 @@ Tags: contact
 
 ----
 
-Herogallery: 
+Heroimage:
+
+----
+
+Herogallery:
 
 ----
 
@@ -26,7 +30,7 @@ Text: Contact text
 
 ----
 
-Map: 
+Map:
 
 address: >
   Viale Guglielmo Marconi, 112, 80020

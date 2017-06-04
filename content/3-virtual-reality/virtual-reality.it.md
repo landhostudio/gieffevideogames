@@ -10,7 +10,11 @@ Tags: realità virtuale
 
 ----
 
-Herogallery: 
+Heroimage:
+
+----
+
+Herogallery:
 
 - home-gallery-1.jpg
 - home-gallery-2.jpg
@@ -26,9 +30,9 @@ Herotext: Descrizione della Realtà Virtuale
 
 ----
 
-Sections: 
+Sections:
 
-- 
+-
   image: home-gallery-1.jpg
   title: Caratteristica 1
   description: >
@@ -36,7 +40,7 @@ Sections:
     policeman appeared, and, requesting them
     to follow him, led the way to an
     adjoining hall.
-- 
+-
   image: home-gallery-2.jpg
   title: Caratteristica 2
   description: >
@@ -44,7 +48,7 @@ Sections:
     policeman appeared, and, requesting them
     to follow him, led the way to an
     adjoining hall.
-- 
+-
   image: home-gallery-3.jpg
   title: Caratteristica 3
   description: >
@@ -55,14 +59,14 @@ Sections:
 
 ----
 
-Products: 
+Products:
 
-- 
+-
   product: prodotti/categoria-prodotti-1/prodotto-1
-- 
+-
   product: >
     prodotti/categoria-prodotti-2/sottocategoria-2/prodotto-18
-- 
+-
   product: prodotti/categoria-prodotti-1/product-3
 
 ----

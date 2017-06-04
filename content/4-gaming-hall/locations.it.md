@@ -10,6 +10,10 @@ Tags: gaming hall
 
 ----
 
+Heroimage:
+
+----
+
 Herogallery:
 
 ----

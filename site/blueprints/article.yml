@@ -37,6 +37,12 @@ fields:
       it: Hero
     type: headline
 
+  heroImage:
+    label:
+      en: Image
+      it: Immagine
+    type: image
+
   heroTitle:
     label:
       en: Title

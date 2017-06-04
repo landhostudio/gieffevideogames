@@ -10,6 +10,10 @@ Tags: keyword 1,keyword 2
 
 ----
 
+Heroimage: 
+
+----
+
 Herogallery:
 
 - home-gallery-1.jpg

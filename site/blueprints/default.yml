@@ -43,6 +43,18 @@ fields:
       it: Titolo
     type: text
 
+  heroImage:
+    label:
+      en: Image
+      it: Immagine
+    type: image
+
+  heroGallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+
   heroText:
     label:
       en: Description
