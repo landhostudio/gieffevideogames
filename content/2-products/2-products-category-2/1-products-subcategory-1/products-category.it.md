@@ -1,24 +1,24 @@
-Title: Sottocategoria 1
+Title: Subcategory 1
 
 ----
 
-Description: Descrizione SEO della sottocategoria 1
+Description: Subcategory 1 SEO description
 
 ----
 
-Tags: sottocategoria 1
+Tags: subcategory 1
 
 ----
 
-Heroimage: products-category.png
+Heroicon: target.svg
 
 ----
 
-Herotitle: Sottocategoria 1
+Herotitle: Subcategory 1
 
 ----
 
-Herotext: Descrizione della sottocategoria 1
+Herotext: Subcategory 1 description
 
 ----
 

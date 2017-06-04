@@ -10,7 +10,7 @@ Tags: category 1
 
 ----
 
-Heroimage: products-category.png
+Heroicon: headset.svg
 
 ----
 

@@ -10,7 +10,7 @@ Tags: category 2
 
 ----
 
-Heroimage: products-category.png
+Heroicon: videogame-machine.svg
 
 ----
 

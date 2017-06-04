@@ -10,7 +10,7 @@ Tags: subcategory 1
 
 ----
 
-Heroimage: products-category.png
+Heroicon: target.svg
 
 ----
 

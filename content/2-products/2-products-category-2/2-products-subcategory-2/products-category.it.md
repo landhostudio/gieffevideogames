@@ -10,7 +10,7 @@ Tags: sottocategoria 2
 
 ----
 
-Heroimage: products-category.png
+Heroicon: chip.svg
 
 ----
 
