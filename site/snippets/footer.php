@@ -24,7 +24,7 @@
 
         <?php if ( $site->youtube() || $site->facebook() || $site->instagram() ) : ?>
           <div class="footer-social<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-2<?php endif; ?>">
-            <ul class="footer-social-items">
+            <ul class="footer-social-items no-list">
               <?php if ( $site->facebook() ) : ?>
                 <li class="footer-social-item">
                   <a href="<?= $site->facebook(); ?>" rel="nofollow" target="_blank" class="footer-social-link">
