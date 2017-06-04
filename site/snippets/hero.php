@@ -2,7 +2,9 @@
 
   <?php if ( $image = $page->heroImage()->toFile() ) : ?>
     <div class="hero-image">
-      <?= thumb( $image, array( 'width' => 300, 'crop' => true ) ) ?>
+      <div class="hero-image-container">
+        <?= thumb( $image, array( 'width' => 1440, 'height' => 600, 'crop' => true ) ) ?>
+      </div>
     </div>
   <?php endif; ?>
 
