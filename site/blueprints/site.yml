@@ -96,17 +96,17 @@ fields:
       it: Footer
     type: headline
 
-  youtube:
-    label:
-      en: YouTube
-      it: YouTube
-    type: url
-    width: 1/3
-
   facebook:
     label:
       en: Facebook
       it: Facebook
+    type: url
+    width: 1/3
+
+  youtube:
+    label:
+      en: YouTube
+      it: YouTube
     type: url
     width: 1/3
 
