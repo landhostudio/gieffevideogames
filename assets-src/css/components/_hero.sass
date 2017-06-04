@@ -1,4 +1,17 @@
 .hero
+
+  // ICON ----------------------------------------------------------------------
+  
+  &-icon
+    text-align: center
+    margin-bottom: - $space * 2
+    @include media($size-s-min)
+      margin-bottom: - $space * 4
+    
+    &--has-svg
+      filter: drop-shadow(0 0 rem-calc(6) $color-3)
+      svg
+        color: $color-3
   // GALLERY -------------------------------------------------------------------
 
   @import "vendors/flickity"

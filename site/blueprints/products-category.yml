@@ -46,11 +46,14 @@ fields:
       it: Hero
     type: headline
 
-  heroImage:
+  heroIcon:
     label:
-      en: Image
-      it: Immagine
+      en: Icon
+      it: Icona
     type: image
+    help:
+      en: 'Recommended: size 96px by 96px and svg format'
+      it: 'Consigliato: dimensione 96px per 96px e formato svg'
 
   heroTitle:
     label:

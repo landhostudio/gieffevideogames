@@ -1,5 +1,17 @@
 <header class="hero">
 
+  <?php if ( $icon = $page->heroIcon()->toFile() ) : ?>
+    <div class="hero-icon<?= e( $icon->extension() == 'svg', ' hero-icon--has-svg', '' ) ?>">
+      <div class="hero-icon-container">
+        <?php if ( $icon->extension() == 'svg' ) : ?>
+          <?= $icon->content() ?>
+        <?php else : ?>
+          <?= thumb( $icon, array( 'width' => 192, 'height' => 192, 'crop' => true ) ) ?>
+        <?php endif; ?>
+      </div>
+    </div>
+  <?php endif; ?>
+
   <?php if ( $image = $page->heroImage()->toFile() ) : ?>
     <div class="hero-image">
       <div class="hero-image-container">
