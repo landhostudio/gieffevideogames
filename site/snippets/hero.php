@@ -22,13 +22,15 @@
 
   <?php if ( $page->heroGallery()->isNotEmpty() ): ?>
     <div class="hero-gallery">
-      <ul>
+      <div class="hero-gallery-flickity<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-3<?php endif; ?>">
         <?php foreach ( $page->heroGallery()->yaml() as $image ) : ?>
           <?php if ( $image = $page->image( $image ) ) : ?>
-            <li><?= thumb( $image, array( 'width' => 300, 'crop' => true ) ); ?></li>
+            <div class="hero-gallery-flickity-item">
+              <?= thumb( $image, array( 'width' => 1440, 'height' => 600, 'crop' => true ) ); ?>
+            </div>
           <?php endif ?>
         <?php endforeach; ?>
-      </ul>
+      </div>
     </div>
   <?php endif; ?>
   
