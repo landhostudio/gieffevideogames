@@ -22,11 +22,27 @@ Ctatext: Questa è la descrizione contatti
 
 ----
 
-Ctabuttontitle: Richieste commerciali e tecniche
+Ctabuttontitle1: Richieste Tecniche
 
 ----
 
-Ctabuttonemail: roman@landhostudio.com
+Ctabuttonsubject1: Richiesta Tecnica:
+
+----
+
+Ctabuttonemail1: roman@landhostudio.com
+
+----
+
+Ctabuttontitle2: Richieste Commerciali
+
+----
+
+Ctabuttonsubject2: Richiesta Commerciale:
+
+----
+
+Ctabuttonemail2: roman@landhostudio.com
 
 ----
 

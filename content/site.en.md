@@ -22,11 +22,27 @@ Ctatext: At half-past eight the door opened, the policeman appeared, and, reques
 
 ----
 
-Ctabuttontitle: Business & Technical Inquiries
+Ctabuttontitle1: Tecnical Inquiries
 
 ----
 
-Ctabuttonemail: roman@landhostudio.com
+Ctabuttonsubject1: Tecnical Inquiry:
+
+----
+
+Ctabuttonemail1: roman@landhostudio.com
+
+----
+
+Ctabuttontitle2: Business Inquiries
+
+----
+
+Ctabuttonsubject2: Business Inquiry:
+
+----
+
+Ctabuttonemail2: roman@landhostudio.com
 
 ----
 
