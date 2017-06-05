@@ -1,4 +1,4 @@
-Seoheadline:
+Seoheadline: 
 
 ----
 
@@ -14,11 +14,11 @@ Tags: prodotto 2
 
 ----
 
-Heroheadline:
+Heroheadline: 
 
 ----
 
-Heroimage: product.png
+Heroimage: google.png
 
 ----
 
@@ -30,11 +30,11 @@ Herotext: Descrizione del prodotto 2
 
 ----
 
-Productheadline:
+Productheadline: 
 
 ----
 
-Gallery:
+Gallery: 
 
 - product-slide-1.png
 - product-slide-2.png
@@ -46,11 +46,11 @@ Iframe: https://www.youtube.com/watch?v=8RkX8TYobHs
 
 ----
 
-Document:
+Document: 
 
 ----
 
-Bodyheadline:
+Bodyheadline: 
 
 ----
 
@@ -58,8 +58,8 @@ Text: Product 2 text
 
 ----
 
-Specsheadline:
+Specsheadline: 
 
 ----
 
-Specs:
+Specs: 

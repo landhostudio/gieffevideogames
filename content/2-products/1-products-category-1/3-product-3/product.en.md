@@ -1,4 +1,4 @@
-Seoheadline:
+Seoheadline: 
 
 ----
 
@@ -14,11 +14,11 @@ Tags: product 3
 
 ----
 
-Heroheadline:
+Heroheadline: 
 
 ----
 
-Heroimage:
+Heroimage: samsung.png
 
 ----
 
@@ -30,11 +30,11 @@ Herotext: Product 3 description
 
 ----
 
-Productheadline:
+Productheadline: 
 
 ----
 
-Gallery:
+Gallery: 
 
 ----
 
@@ -42,11 +42,11 @@ Iframe:
 
 ----
 
-Document:
+Document: 
 
 ----
 
-Bodyheadline:
+Bodyheadline: 
 
 ----
 
@@ -54,8 +54,8 @@ Text: Product 3 text
 
 ----
 
-Specsheadline:
+Specsheadline: 
 
 ----
 
-Specs:
+Specs: 

@@ -1,4 +1,4 @@
-Seoheadline:
+Seoheadline: 
 
 ----
 
@@ -14,11 +14,11 @@ Tags: product 4
 
 ----
 
-Heroheadline:
+Heroheadline: 
 
 ----
 
-Heroimage:
+Heroimage: oculus.png
 
 ----
 
@@ -30,11 +30,11 @@ Herotext: Product 4 description
 
 ----
 
-Productheadline:
+Productheadline: 
 
 ----
 
-Gallery:
+Gallery: 
 
 ----
 
@@ -42,11 +42,11 @@ Iframe:
 
 ----
 
-Document:
+Document: 
 
 ----
 
-Bodyheadline:
+Bodyheadline: 
 
 ----
 
@@ -54,8 +54,8 @@ Text: Product 4 text
 
 ----
 
-Specsheadline:
+Specsheadline: 
 
 ----
 
-Specs:
+Specs: 
