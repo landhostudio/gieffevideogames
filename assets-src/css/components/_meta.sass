@@ -1,0 +1,19 @@
+.meta
+  margin: $space 0
+  &-date
+    &:after
+      content: '•'
+      padding: 0 $space / 2 0 $space / 1.5
+      float: right
+  &-category
+    &:after
+      content: '•'
+      padding: 0 $space / 2 0 $space / 1.5
+      float: right
+    &:last-child
+      &:after
+        display: none
+    a
+      text-transform: capitalize
+  a
+    text-decoration: none
