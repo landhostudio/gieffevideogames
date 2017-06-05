@@ -28,8 +28,8 @@
   &-prev-next-button
     position: absolute
     top: 50%
-    width: 44px
-    height: 44px
+    width: rem-calc(44)
+    height: rem-calc(44)
     border: none
     border-radius: 50%
     background: white
@@ -40,19 +40,19 @@
       background: white
     &:focus
       outline: none
-      box-shadow: 0 0 0 5px #09F
+      box-shadow: 0 0 0 rem-calc(6) #09F
     &:active
       opacity: 0.6
     &.previous
-      left: 10px
+      left: rem-calc(10)
       .flickity-rtl &
         left: auto
-        right: 10px
+        right: rem-calc(10)
     &.next
-      right: 10px
+      right: rem-calc(10)
       .flickity-rtl &
         right: auto
-        left: 10px
+        left: rem-calc(10)
     &:disabled
       opacity: 0.3
       cursor: auto
@@ -81,9 +81,9 @@
       direction: rtl
     .dot
       display: inline-block
-      width: 10px
-      height: 10px
-      margin: 0 8px
+      width: rem-calc(10)
+      height: rem-calc(10)
+      margin: 0 rem-calc(8)
       background: currentColor
       border-radius: 50%
       opacity: 0.25
