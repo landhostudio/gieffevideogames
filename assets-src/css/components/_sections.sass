@@ -1,0 +1,48 @@
+.section
+  &-container
+    @include media($size-m-min)
+      display: flex
+      align-items: center
+  &-image
+    @include media($size-m-min)
+      flex-basis: 50%
+      .section--left &
+        order: 2
+    &-container
+      position: relative
+      overflow: hidden
+      width: 100%
+      padding-bottom: per-width(16,9)
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      overflow: hidden
+      img
+        position: absolute
+        top: 50%
+        width: 100%
+        transform: translateY(-50%)
+  &-content
+    text-align: center
+    padding-left: $space
+    padding-right: $space
+    @include media(max-width $size-m-max)
+      padding-top: $space * 2
+      padding-bottom: $space * 2
+    @include media($size-m-min)
+      flex-basis: 50%
+      margin-right: auto
+      max-width: $size-m-min / 2
+    @include media($size-l-min)
+      max-width: $size-l-min / 2
+    .section--left &
+      order: 1
+    p
+      max-width: em-calc(480)
+      margin-left: auto
+      margin-right: auto
+      @include media($size-m-min)
+        max-width: em-calc(320)
+    .button
+      margin-top: $space / 2
