@@ -1,4 +1,4 @@
-Seoheadline: 
+Seoheadline:
 
 ----
 
@@ -14,11 +14,11 @@ Tags: prodotto 3
 
 ----
 
-Heroheadline: 
+Heroheadline:
 
 ----
 
-Heroimage: 
+Heroimage:
 
 ----
 
@@ -30,23 +30,23 @@ Herotext: Descrizione del prodotto 3
 
 ----
 
-Productheadline: 
+Productheadline:
 
 ----
 
-Gallery: 
+Gallery:
 
 ----
 
-Video: 
+Video:
 
 ----
 
-Document: 
+Document:
 
 ----
 
-Bodyheadline: 
+Bodyheadline:
 
 ----
 
@@ -54,8 +54,8 @@ Text: Testo del prodotto 3
 
 ----
 
-Specsheadline: 
+Specsheadline:
 
 ----
 
-Specs: 
+Specs:

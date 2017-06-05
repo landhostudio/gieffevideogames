@@ -1,4 +1,4 @@
-Seoheadline: 
+Seoheadline:
 
 ----
 
@@ -18,7 +18,7 @@ Heroheadline:
 
 ----
 
-Heroimage: 
+Heroimage:
 
 ----
 
@@ -30,23 +30,23 @@ Herotext: Product 12 description
 
 ----
 
-Productheadline: 
+Productheadline:
 
 ----
 
-Gallery: 
+Gallery:
 
 ----
 
-Video: 
+Iframe:
 
 ----
 
-Document: 
+Document:
 
 ----
 
-Bodyheadline: 
+Bodyheadline:
 
 ----
 
@@ -54,8 +54,8 @@ Text: Product 12 text
 
 ----
 
-Specsheadline: 
+Specsheadline:
 
 ----
 
-Specs: 
+Specs:

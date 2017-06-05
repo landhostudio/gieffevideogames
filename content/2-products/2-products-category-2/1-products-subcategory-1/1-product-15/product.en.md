@@ -1,4 +1,4 @@
-Seoheadline: 
+Seoheadline:
 
 ----
 
@@ -14,11 +14,11 @@ Tags: product 15
 
 ----
 
-Heroheadline: 
+Heroheadline:
 
 ----
 
-Heroimage: 
+Heroimage:
 
 ----
 
@@ -30,23 +30,23 @@ Herotext: Product 15 description
 
 ----
 
-Productheadline: 
+Productheadline:
 
 ----
 
-Gallery: 
+Gallery:
 
 ----
 
-Video: 
+Iframe:
 
 ----
 
-Document: 
+Document:
 
 ----
 
-Bodyheadline: 
+Bodyheadline:
 
 ----
 
@@ -54,8 +54,8 @@ Text: Product 15 text
 
 ----
 
-Specsheadline: 
+Specsheadline:
 
 ----
 
-Specs: 
+Specs:

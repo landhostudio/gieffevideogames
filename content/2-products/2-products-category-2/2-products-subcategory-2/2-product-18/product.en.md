@@ -38,7 +38,7 @@ Gallery:
 
 ----
 
-Video:
+Iframe:
 
 ----
 

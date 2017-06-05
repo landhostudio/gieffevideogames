@@ -6,7 +6,6 @@ files:
   sortable: true
   type:
     - image
-    - video
     - document
 
 pages: false
@@ -77,16 +76,14 @@ fields:
       it: Galleria
     type: images
 
-  video:
+  iframe:
     label:
-      en: Video
-      it: Video
-    type: quickselect
-    options: videos
-    width: 1/2
+      en: Video iframe
+      it: Video iframe
+    type: url
     help:
-      en: 'Recommended: 480p or 720p and MP4 H.264 format, ACC or MP3 for audio'
-      it: 'Consigliato: 480p o 720p e formato MP4 H.264, ACC o MP3 per audio'
+      en: 'Link of full url of YouTube or Vimeo'
+      it: 'Link dell’intero url da YouTube o Vimeo'
 
   document:
     label:
