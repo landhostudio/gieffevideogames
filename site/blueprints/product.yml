@@ -84,6 +84,9 @@ fields:
     type: quickselect
     options: videos
     width: 1/2
+    help:
+      en: 'Recommended: 480p or 720p and MP4 H.264 format, ACC or MP3 for audio'
+      it: 'Consigliato: 480p o 720p e formato MP4 H.264, ACC o MP3 per audio'
 
   document:
     label:
@@ -92,6 +95,9 @@ fields:
     type: quickselect
     options: documents
     width: 1/2
+    help:
+      en: 'File extention: pdf, doc, docx, xls, xlsx, ppt, csv, rtf'
+      it: 'Estensione file: pdf, doc, docx, xls, xlsx, ppt, csv, rtf'
 
   bodyHeadline:
     label:
