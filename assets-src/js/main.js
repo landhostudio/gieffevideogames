@@ -6,6 +6,8 @@
     initNavigation();
     initLanguage();
     initGallery();
+    initModalGallery();
+    initModalVideo();
     initLog();
   };
 
@@ -44,6 +46,46 @@
       $carousel.flickity('playPlayer');
       $carousel.off('mouseleave', onNavMouseleave);
     };
+
+  };
+
+  function initModalGallery() {
+    
+    $('.button--gallery').click(function(event) {
+      $('.hero-product-gallery').magnificPopup('open');
+      event.preventDefault();
+    });
+
+    $('.hero-product-gallery').each(function () {
+      $(this).magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+          enabled: true,
+          preload: [0,1]
+        }
+      });
+    });
+
+  };
+
+  function initModalVideo() {
+    
+    $('.button--video').magnificPopup({
+      type: 'iframe',
+      patterns: {
+        youtube: {
+          index: 'youtube.com/',
+          id: 'v=',
+          src: '//www.youtube.com/embed/%id%?autoplay=1'
+        },
+        vimeo: {
+          index: 'vimeo.com/',
+          id: '/',
+          src: '//player.vimeo.com/video/%id%?autoplay=1'
+        }
+      }
+    });
 
   };
 

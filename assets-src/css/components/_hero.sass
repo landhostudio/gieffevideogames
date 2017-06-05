@@ -1,4 +1,5 @@
 @import "vendors/flickity"
+@import "vendors/magnific-popup"
 
 .hero
 
@@ -81,3 +82,33 @@
         text-decoration: none
         float: left
         text-transform: capitalize
+
+  // PRODUCT -------------------------------------------------------------------
+
+  &-product
+    .container
+      @include media($size-s-min)
+        display: flex
+        align-items: center
+    &-image
+      @include media($size-s-min)
+        flex-basis: 50%
+        padding-right: $space
+    &-content
+      @include media($size-s-min)
+        flex-basis: 50%
+        padding-left: $space
+      &-category
+        display: block
+        text-decoration: none
+        margin: $space 0
+    &-buttons
+      display: flex
+      margin: $space 0
+      .button
+        @include media(max-width $size-s-max)
+          flex-grow: 1
+          padding: 0
+      .button--video
+        border-left: none
+        border-right: none

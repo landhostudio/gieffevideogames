@@ -2,17 +2,7 @@
 
 <article>
 
-  <?php snippet( 'hero' ) ?>
-
-  <?php if ( $page->gallery() ): ?>
-    <div class="gallery">
-      <?php $n = 0; foreach ( $page->gallery()->yaml() as $image ) : $n++; ?>
-        <?php if ( $image = $page->image( $image ) ) : ?>
-          <a href="<?= thumb( $image, array( 'width' => 300, 'crop' => true ) )->url(); ?>">Image <?= $n ?></a>
-        <?php endif ?>
-      <?php endforeach; ?>
-    </div>
-  <?php endif; ?>
+  <?php snippet( 'hero-product' ) ?>
 
   <?php snippet( 'body' ); ?>
 

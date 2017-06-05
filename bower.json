@@ -14,6 +14,7 @@
     "fastclick": "^1.0.6",
     "normalize-scss": "^3.0.3",
     "jquery": "^3.2.1",
-    "flickity": "^2.0.8"
+    "flickity": "^2.0.8",
+    "magnific-popup": "^1.1.0"
   }
 }
