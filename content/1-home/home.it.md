@@ -10,11 +10,15 @@ Tags: parola chiave 1,parola chiave 2
 
 ----
 
-Heroimage:
+Heroimage: 
 
 ----
 
-Herogallery:
+Herogallery: 
+
+- home-gallery-1.jpg
+- home-gallery-2.jpg
+- home-gallery-3.jpg
 
 ----
 
@@ -30,21 +34,21 @@ Heroctatitle: Nostri prodotti
 
 ----
 
-Heroctaurl:
+Heroctaurl: 
 
 ----
 
-Sections:
+Sections: 
 
--
+- 
   title: Realtà Virtuale
   description: Questa è la sezione VR.
   link: products
   url: products
   image: home-section-1.jpg
   ctatitle: Leggi tutto
-  ctaurl: prodotti
--
+  ctaurl: realta-virtuale
+- 
   title: Prodotti
   description: Questa è la sezione prodotti
   link: products
@@ -53,7 +57,7 @@ Sections:
   gallery: ""
   ctatitle: Nostri prodotti
   ctaurl: prodotti
--
+- 
   title: Gaming Hall
   description: Questa è la sezione gaming hall
   link: products
@@ -61,4 +65,4 @@ Sections:
   image: home-section-3.jpg
   gallery: ""
   ctatitle: Leggi tutto
-  ctaurl: blog
+  ctaurl: gaming-hall
