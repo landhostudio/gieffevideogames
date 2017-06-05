@@ -52,12 +52,11 @@
             </ul>
           </div>
         <?php endif; ?>
-
-        <div class="footer-copyright">
-          <p class="<?php if ( $page->template() == 'virtual-reality' ) : ?>text-color-4-alt<?php else : ?>text-color-2<?php endif; ?>"><?php echo html::decode( $site->copyright()->kirbytext() ); ?></p>
-        </div>
-
       </div>
+    </footer>
+
+    <footer class="copyright <?php if ( $page->template() == 'virtual-reality' ) : ?> background-2<?php else : ?> background-1<?php endif; ?>">
+      <p class="<?php if ( $page->template() == 'virtual-reality' ) : ?>text-color-4-alt<?php else : ?>text-color-2<?php endif; ?>"><?php echo html::decode( $site->copyright()->kirbytext() ); ?></p>
     </footer>
 
     <?=

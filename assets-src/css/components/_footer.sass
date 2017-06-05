@@ -82,11 +82,12 @@
       
       svg
         max-height: em-calc(24)
-      
-  &-copyright
-    flex-basis: 100%
-    text-align: center
-    @include media(max-width $size-l-max)
-      margin-top: $space * 2
-    p
-      font-size: em-calc(10)
+
+.copyright
+  flex-basis: 100%
+  text-align: center
+  padding: $space / 2 $space
+  margin-top: $space
+  p
+    font-size: em-calc(10)
+    margin: 0
