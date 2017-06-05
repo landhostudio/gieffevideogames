@@ -42,7 +42,7 @@
         <div class="hero-product-gallery hidden">
           <?php $n = 0; foreach ( $page->gallery()->yaml() as $image ) : $n++; ?>
             <?php if ( $image = $page->image( $image ) ) : ?>
-              <a href="<?= thumb( $image, array( 'width' => 300, 'crop' => true ) )->url(); ?>">Image <?= $n ?></a>
+              <a href="<?= thumb( $image, array( 'width' => 1920, 'height' => 1080, 'crop' => true ) )->url(); ?>">Image <?= $n ?></a>
             <?php endif ?>
           <?php endforeach; ?>
         </div>

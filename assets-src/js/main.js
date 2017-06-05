@@ -62,7 +62,10 @@
         type: 'image',
         gallery: {
           enabled: true,
-          preload: [0,1]
+          preload: [0,1],
+          tPrev: '«',
+          tNext: '»',
+          tCounter: '%curr% – %total%'
         }
       });
     });
