@@ -1,12 +1,12 @@
-Title: Subcategory 1
+Title: Sottocategoria 1
 
 ----
 
-Description: Subcategory 1 SEO description
+Description: Descrizione SEO della sottocategoria 1
 
 ----
 
-Tags: subcategory 1
+Tags: sottocategoria 1
 
 ----
 
@@ -14,11 +14,11 @@ Heroicon: target.svg
 
 ----
 
-Herotitle: Subcategory 1
+Herotitle: Sottocategoria 1
 
 ----
 
-Herotext: Subcategory 1 description
+Herotext: Descrizione della sottocategoria 1
 
 ----
 
