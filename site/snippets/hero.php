@@ -33,55 +33,34 @@
       </div>
     </div>
   <?php endif; ?>
-  
+
   <div class="hero-content">
+    <div class="container">
 
-    <?php if ( $page->template() == 'product' ) : ?>
-      <a href="<?= $page->parent()->url() ?>" rel="prev"><?= $page->parent()->title()->html() ?></a>
-    <?php endif; ?>
-
-    <?php if ( $page->heroTitle()->isNotEmpty() ) : ?>
-      <h2><?= $page->heroTitle()->html(); ?></h2>
-    <?php else : ?>
-      <h2><?= $page->title()->html(); ?></h2>
-    <?php endif; ?>
-    
-    <?php if ( $page->heroText()->isNotEmpty() ) : ?>
-      <p><?= $page->heroText()->html(); ?></p>
-    <?php else : ?>
-      <p><?= $page->description()->html(); ?></p>
-    <?php endif; ?>
-
-    <?php if ( $page->heroCTATitle()->isNotEmpty() && $page->heroCTAUrl()->isNotEmpty() ) : ?>
-      <a href="<?= $site->language()->url() ?>/<?= $page->heroCTAUrl()->html(); ?>" rel="bookmark" class="button"><?= $page->heroCTATitle()->html(); ?></a>
-    <?php endif; ?>
-
-    <?php if ( $page->template() == 'article' ) : ?>
-      <?php snippet( 'meta', array( 'article' => $page ) ); ?>
-    <?php endif; ?>
-
-  </div>
-
-  <?php if ( $page->gallery()->isNotEmpty() && $page->video()->isNotEmpty() && $page->document()->isNotEmpty() ): ?>
-    <div class="hero-buttons">
-
-      <?php if ( $page->gallery() ): ?>
-        <a href="#" class="button button--gallery">Images</a>
+      <?php if ( $page->heroTitle()->isNotEmpty() ) : ?>
+        <h2 class="h1<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-3<?php endif; ?>"><?= $page->heroTitle()->html(); ?></h2>
+      <?php else : ?>
+        <h2 class="h1<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-3<?php endif; ?>"><?= $page->title()->html(); ?></h2>
       <?php endif; ?>
 
-      <?php if ( $page->video() ): ?>
-        <a href="#" class="button button--video">Video</a>
+      <?php if ( $page->heroText()->isNotEmpty() ) : ?>
+        <p><?= $page->heroText()->html(); ?></p>
+      <?php else : ?>
+        <p><?= $page->description()->html(); ?></p>
       <?php endif; ?>
 
-      <?php if ( $page->document() ): ?>
-        <a href="#" class="button button--download">Download</a>
+      <?php if ( $page->heroCTATitle()->isNotEmpty() && $page->heroCTAUrl()->isNotEmpty() ) : ?>
+        <a href="<?= $site->language()->url() ?>/<?= $page->heroCTAUrl()->html(); ?>" rel="bookmark" class="button button--color-2 button--l"><?= $page->heroCTATitle()->html(); ?></a>
+      <?php endif; ?>
+
+      <?php if ( $page->template() == 'blog' ) : ?>
+        <?php snippet( 'articles-categories', array( 'categories' => $categories ) ) ?>
+      <?php endif; ?>
+
+      <?php if ( $page->template() == 'article' ) : ?>
+        <?php snippet( 'meta', array( 'article' => $page ) ); ?>
       <?php endif; ?>
 
     </div>
-  <?php endif; ?>
-
-  <?php if ( $page->template() == 'blog' ) : ?>
-    <?php snippet( 'articles-categories', array( 'categories' => $categories ) ) ?>
-  <?php endif; ?>
-
+  </div>
 </header>
