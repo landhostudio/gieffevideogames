@@ -14,4 +14,5 @@ l::set( 'date.format',            'F j, Y' );
 l::set( 'pagination.title',       'Pagination' );
 l::set( 'pagination.prev',        '&lsaquo; Previuos' );
 l::set( 'pagination.next',        'Next &rsaquo;' );
+l::set( 'breadcrumb.prev',        '&laquo; Back' );
 l::set( 'none.title',             'No content' );

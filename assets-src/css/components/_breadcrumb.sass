@@ -1,0 +1,27 @@
+.breadcrumb
+  margin-top: $space * 2
+  @include media($size-s-min)
+    margin-top: $space * 4
+  &-content
+    display: flex
+    justify-content: space-between
+    padding-top: $space * 1.5
+    padding-bottom: $space * 1.5
+    border-top: $border-args lighten($color-4, 7.5%)
+  &-prev
+    flex: 1
+    &--disabled
+      opacity: 0.25
+  &-pages
+    @include media(max-width $size-s-max)
+      display: none
+  &-page
+    &--active
+    + .breadcrumb-page
+      &::before
+        content: '›'
+        color: $color-3
+        padding-left: $space / 4
+        padding-right: $space / 4
+  a, span
+    color: $color-3
