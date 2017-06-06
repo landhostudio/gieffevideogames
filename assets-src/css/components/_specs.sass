@@ -1,0 +1,33 @@
+.specs
+  &-title
+    text-align: center
+  
+  dl
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-top: $space * 2
+    margin-bottom: 0
+  
+  &-header,
+  &-description
+    font-size: rem-calc(12)
+    border-top: $border-args lighten($color-4, 7.5%)
+    flex-basis: 50%
+    margin: 0
+    padding: 0
+    @include media($size-s-min)
+      font-size: rem-calc(14)
+    @include media($size-m-min)
+      font-size: rem-calc(16)
+
+  &-header
+    padding-top: $space
+    padding-bottom: $space
+    padding-right: $space
+    font-weight: $font-weight-2
+
+  &-description
+    padding-left: $space
+    ul
+      padding-left: $space * 1.5
