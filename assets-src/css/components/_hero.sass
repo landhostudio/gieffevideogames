@@ -98,6 +98,8 @@
         flex-basis: 50%
         padding-right: $space
     &-content
+      @include media(max-width $size-s-max)
+        text-align: center
       @include media($size-s-min)
         flex-basis: 50%
         padding-left: $space
