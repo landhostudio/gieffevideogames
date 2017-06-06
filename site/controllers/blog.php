@@ -16,7 +16,7 @@
     }
 
     // Apply pagination
-    $articles = $articles->paginate( 2 );
+    $articles = $articles->paginate(6);
     $pagination = $articles->pagination();
 
     return compact('articles', 'categories', 'category', 'pagination');
