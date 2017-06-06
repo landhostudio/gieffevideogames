@@ -1,0 +1,92 @@
+.products
+  &.container
+    @include media($size-s-min)
+      display: flex
+      flex-wrap: wrap
+      padding-left: $space / 2
+      padding-right: $space / 2
+  
+  // CATEGORIES ----------------------------------------------------------------
+  
+  &-category
+    @include media($size-s-min)
+      flex-basis: 50%
+      padding: $space / 2
+    &-link
+      display: flex
+      align-items: center
+      padding: $space * 1.5
+      border: $border-4
+      box-shadow: $glow-4
+      border-radius: rem-calc(3)
+      @include media($size-s-min)
+        padding: $space * 2
+    &-image
+      margin-right: $space
+      line-height: 0
+      @include media($size-s-min)
+        margin-right: $space * 2
+      &--has-svg
+        filter: drop-shadow(0 0 rem-calc(6) $color-3)
+        svg
+          color: $color-3
+          width: rem-calc(64)
+          height: rem-calc(64)
+          @include media($size-s-min)
+            width: rem-calc(96)
+            height: rem-calc(96)
+      img
+        width: rem-calc(64)
+        height: rem-calc(64)
+        @include media($size-s-min)
+          width: rem-calc(96)
+          height: rem-calc(96)
+
+    &-content
+      p
+        margin-bottom: 0
+        font-size: rem-calc(14)
+
+    + .products-category
+      @include media(max-width $size-s-max)
+        margin-top: $space
+
+  // PRODUCT PREVIEWS ----------------------------------------------------------
+
+  &-preview
+    @include media($size-s-min)
+      flex-basis: 50%
+      padding: $space / 2
+    @include media($size-m-min)
+      flex-basis: 25%
+    &-link
+      display: block
+      &:focus,
+      &:hover
+        .products-preview-image
+          box-shadow: $glow-interact-4
+          background-color: lighten($color-1, 1.5%)
+    &-image
+      position: relative
+      overflow: hidden
+      width: 100%
+      padding-bottom: 100%
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      overflow: hidden
+      border: $border-4
+      box-shadow: $glow-4
+      border-radius: rem-calc(3)
+      transition: box-shadow 250ms ease-in-out, background 250ms ease-in-out
+      img
+        position: absolute
+        top: 50%
+        width: 100%
+        transform: translateY(-50%)
+    &-content
+      padding: $space
+    + .products-preview
+      @include media(max-width $size-s-max)
+        margin-top: $space

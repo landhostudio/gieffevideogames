@@ -1,15 +1,17 @@
-<article class="product">
-  <a href="<?= $product->url() ?>" rel="bookmark">
+<article class="products-preview">
+  <a href="<?= $product->url() ?>" rel="bookmark" class="products-preview-link">
+
     <?php if ( $image = $product->heroImage()->toFile() ) : ?>
-      <div class="product-image">
-        <?= thumb( $image, array( 'width' => 300, 'crop' => true ) ) ?>
+      <div class="products-preview-image">
+        <?= thumb( $image, array( 'width' => 720, 'height' => 720, 'crop' => true ) ) ?>
       </div>
     <?php endif; ?>
-    <div class="product-content">
+
+    <div class="products-preview-content">
       <?php if ( $product->heroTitle() ): ?>
-        <h3><?= $product->heroTitle()->html() ?></h3>
+        <h3 class="text-color-2"><?= $product->heroTitle()->html() ?></h3>
       <?php else : ?>
-        <h3><?= $product->title()->html() ?></h3>
+        <h3 class="text-color-2"><?= $product->title()->html() ?></h3>
       <?php endif; ?>
     </div>
   </a>
