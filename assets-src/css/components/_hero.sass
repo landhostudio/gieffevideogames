@@ -111,6 +111,6 @@
         @include media(max-width $size-s-max)
           flex-grow: 1
           padding: 0
-      .button--video
-        border-left: none
-        border-right: none
+
+        + .button
+          margin-left: - rem-calc(1)
