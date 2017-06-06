@@ -35,3 +35,7 @@ Herotitle: Article 1
 ----
 
 Herotext: Article 1 description
+
+----
+
+Heroimage: post-1.jpg

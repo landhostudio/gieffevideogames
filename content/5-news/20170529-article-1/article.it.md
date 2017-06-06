@@ -39,3 +39,7 @@ Herotitle: Articolo 1
 ----
 
 Herotext: Descrizione dell’articolo 1
+
+----
+
+Heroimage: post-1.jpg
