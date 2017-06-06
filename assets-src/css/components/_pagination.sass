@@ -1,0 +1,63 @@
+.pagination
+
+  &--top
+    margin-bottom: $space * 2
+    @include media($size-s-min)
+      margin-bottom: $space * 4
+
+  &--bottom
+    margin-top: $space * 2
+    @include media($size-s-min)
+      margin-top: $space * 4
+
+  .container
+
+  &-content
+    display: flex
+    justify-content: space-between
+    padding-top: $space * 1.5
+    padding-bottom: $space * 1.5
+
+    .pagination--top &
+      border-top: $border-args lighten($color-4, 7.5%)
+
+    .pagination--bottom &
+      border-bottom: $border-args lighten($color-4, 7.5%)
+
+  &-list
+    // display: flex
+    // justify-content: space-around
+    
+    // flex-wrap: wrap
+    // justify-content: center
+    // align-items: center
+    
+    
+  &-prev,
+  &-next
+    flex: 1
+    &--disabled
+      opacity: 0.25
+    @include media(max-width $size-s-max)
+      span
+        display: none
+    @include media($size-s-min)
+      svg
+        display: none
+  &-prev
+    order: 1
+  &-next
+    order: 3
+    text-align: right
+  &-pages
+    order: 2
+    text-align: center
+  &-page
+    opacity: 0.25
+    &--active
+      opacity: 1
+    a
+      padding: $space
+
+  a, span
+    color: $color-3
