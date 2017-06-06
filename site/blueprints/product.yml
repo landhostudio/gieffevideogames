@@ -81,6 +81,7 @@ fields:
       en: Video iframe
       it: Video iframe
     type: url
+    width: 1/2
     help:
       en: 'Link of full url of YouTube or Vimeo'
       it: 'Link dell’intero url da YouTube o Vimeo'
