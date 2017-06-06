@@ -47,6 +47,18 @@ fields:
       it: Hero
     type: headline
 
+  heroImage:
+    label:
+      en: Image
+      it: Immagine
+    type: image
+
+  heroGallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+
   heroTitle:
     label:
       en: Title

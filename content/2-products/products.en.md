@@ -15,3 +15,11 @@ Herotitle: Products
 ----
 
 Herotext: Products description
+
+----
+
+Heroimage: 
+
+----
+
+Herogallery: 
