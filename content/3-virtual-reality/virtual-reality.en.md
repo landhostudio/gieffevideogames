@@ -67,6 +67,8 @@ Products:
   product: products/products-category-1/product-2
 - 
   product: products/products-category-1/product-3
+- 
+  product: products/products-category-1/product-4
 
 ----
 

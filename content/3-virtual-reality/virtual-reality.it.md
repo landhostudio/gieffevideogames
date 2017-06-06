@@ -64,9 +64,11 @@ Products:
 - 
   product: prodotti/categoria-prodotti-1/prodotto-1
 - 
-  product: prodotti/categoria-prodotti-1/product-2
+  product: prodotti/categoria-prodotti-1/prodotto-2
 - 
-  product: prodotti/categoria-prodotti-1/product-3
+  product: prodotti/categoria-prodotti-1/prodotto-3
+- 
+  product: prodotti/categoria-prodotti-1/prodotto-4
 
 ----
 
