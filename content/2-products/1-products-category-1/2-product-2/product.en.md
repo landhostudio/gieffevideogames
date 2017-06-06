@@ -1,4 +1,4 @@
-Seoheadline: 
+Seoheadline:
 
 ----
 
@@ -14,7 +14,7 @@ Tags: product 2
 
 ----
 
-Heroheadline: 
+Heroheadline:
 
 ----
 
@@ -30,23 +30,23 @@ Herotext: Product 2 description
 
 ----
 
-Productheadline: 
+Productheadline:
 
 ----
 
-Gallery: 
+Gallery:
 
 ----
 
-Iframe: https://www.youtube.com/watch?v=8RkX8TYobHs
+Iframe: 
 
 ----
 
-Document: 
+Document:
 
 ----
 
-Bodyheadline: 
+Bodyheadline:
 
 ----
 
@@ -54,8 +54,8 @@ Text: Product 2 text
 
 ----
 
-Specsheadline: 
+Specsheadline:
 
 ----
 
-Specs: 
+Specs:
