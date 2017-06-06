@@ -24,12 +24,12 @@
         <p><?= $page->description()->html(); ?></p>
       <?php endif; ?>
 
-      <?php if ( $page->gallery() || $page->iframe() || $page->document() ): ?>
+      <?php if ( $page->gallery()->isNotEmpty() || $page->iframe()->isNotEmpty() || $page->document() ): ?>
         <div class="hero-product-buttons">
-          <?php if ( $page->gallery() ): ?>
+          <?php if ( $page->gallery()->isNotEmpty() ): ?>
             <a href="#" class="button button--gallery button--color-2 button--m button--outline"><?= l( 'product.images.title' ) ?></a>
           <?php endif; ?>
-          <?php if ( $page->iframe() ): ?>
+          <?php if ( $page->iframe()->isNotEmpty() ): ?>
             <a href="<?= $page->iframe() ?>" class="button button--video button--color-2 button--m button--outline"><?= l( 'product.video.title' ) ?></a>
           <?php endif; ?>
           <?php if ( $page->document() ): ?>
@@ -38,7 +38,7 @@
         </div>
       <?php endif; ?>
 
-      <?php if ( $page->gallery() ): ?>
+      <?php if ( $page->gallery()->isNotEmpty() ): ?>
         <div class="hero-product-gallery hidden">
           <?php $n = 0; foreach ( $page->gallery()->yaml() as $image ) : $n++; ?>
             <?php if ( $image = $page->image( $image ) ) : ?>
