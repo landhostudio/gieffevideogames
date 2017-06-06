@@ -4,7 +4,7 @@
 
   <?php snippet( 'hero-product' ) ?>
 
-  <?php snippet( 'body' ); ?>
+  <?php snippet( 'body', array( 'columns' => 'yes' ) ); ?>
 
   <?php if ( $page->specs() ) : ?>
     <section class="specs">
