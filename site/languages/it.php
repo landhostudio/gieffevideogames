@@ -3,7 +3,7 @@
 l::set( 'header.hamburger',       'Apri la navigazione' );
 l::set( 'menu.title',             'Navigazione' );
 l::set( 'products.title',         'Prodotti' );
-l::set( 'products.specs',         'Specifiche del prodotto' );
+l::set( 'product.specs',          'Specifiche del prodotto' );
 l::set( 'product.images.title',   'Immagini' );
 l::set( 'product.video.title',    'Video' );
 l::set( 'product.document.title', 'Scarica' );
