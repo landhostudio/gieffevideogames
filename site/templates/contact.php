@@ -5,7 +5,7 @@
   <?php
     snippet( 'hero' );
     snippet( 'map' );
-    snippet( 'body' );
+    snippet( 'body', array( 'columns' => 'yes' ) );
   ?>
 
 </article>

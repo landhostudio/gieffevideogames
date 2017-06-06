@@ -4,9 +4,9 @@
 
   <?php
     snippet( 'hero' );
-    snippet( 'pagination', array( 'pagination' => $pagination ) );
+    snippet( 'pagination', array( 'pagination' => $pagination, 'position' => 'top' ) );
     snippet( 'articles' );
-    snippet( 'pagination', array( 'pagination' => $pagination ) );
+    snippet( 'pagination', array( 'pagination' => $pagination, 'position' => 'bottom' ) );
   ?>
 
 </section>

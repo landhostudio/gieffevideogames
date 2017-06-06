@@ -4,7 +4,7 @@
 
   <?php
     snippet( 'hero' );
-    snippet( 'body' );
+    snippet( 'body', array( 'columns' => 'yes' ) );
     snippet( 'breadcrumb' );
   ?>
 
