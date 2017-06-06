@@ -9,30 +9,15 @@
     margin-top: $space * 2
     @include media($size-s-min)
       margin-top: $space * 4
-
-  .container
-
   &-content
     display: flex
     justify-content: space-between
     padding-top: $space * 1.5
     padding-bottom: $space * 1.5
-
     .pagination--top &
       border-top: $border-args lighten($color-4, 7.5%)
-
     .pagination--bottom &
       border-bottom: $border-args lighten($color-4, 7.5%)
-
-  &-list
-    // display: flex
-    // justify-content: space-around
-    
-    // flex-wrap: wrap
-    // justify-content: center
-    // align-items: center
-    
-    
   &-prev,
   &-next
     flex: 1
@@ -58,6 +43,5 @@
       opacity: 1
     a
       padding: $space
-
   a, span
     color: $color-3
