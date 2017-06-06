@@ -14,7 +14,7 @@ Heroimage: htc.png
 
 ----
 
-Herotitle: Product with ultra long title test 1
+Herotitle: Product 1
 
 ----
 
@@ -24,9 +24,8 @@ Herotext: Product 1 description
 
 Gallery: 
 
-- product-slide-1.png
-- product-slide-2.png
-- product-slide-3.png
+- htc-vive-1.png
+- htc-vive-2.png
 
 ----
 
