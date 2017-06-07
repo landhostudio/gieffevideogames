@@ -1,0 +1,33 @@
+.contact
+  margin-bottom: $space * 4
+  .container
+    @include media($size-s-min)
+      display: flex
+      flex-wrap: wrap
+      padding-left: 0
+      padding-right: 0
+  &-map, &-content
+    @include media($size-s-min)
+      flex-basis: 50%
+      padding-left: $space
+      padding-right: $space
+  &-map
+    &-content
+      position: relative
+      padding-bottom: per-width(16,9)
+    &-canvas
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+  &-content
+    p
+      margin-top: 0
+    > *
+      color: darken($color-2, 50%)
+    strong
+      color: $color-2
+    ul
+      padding-left: em-calc(20)
+    

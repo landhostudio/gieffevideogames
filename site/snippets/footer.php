@@ -59,6 +59,10 @@
       <p class="<?php if ( $page->template() == 'virtual-reality' ) : ?>text-color-4-alt<?php else : ?>text-color-2<?php endif; ?>"><?php echo html::decode( $site->copyright()->kirbytext() ); ?></p>
     </footer>
 
+    <?php if ( $page->template() == 'contact' ) : ?>
+      <?= js( 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB-7QytKMD90pKwOssSFELz40Cemx1MXgU' ) ?>
+    <?php endif; ?>
+
     <?=
       js(array(
         'assets/js/vendor.js',

@@ -22,7 +22,7 @@ Herotitle: About
 
 ----
 
-Herotext: About SEO description
+Herotext: About description
 
 ----
 

@@ -4,13 +4,9 @@
 
   <?php
     snippet( 'hero' );
-    snippet( 'map' );
-    snippet( 'body', array( 'columns' => 'yes' ) );
+    snippet( 'contact' );
   ?>
 
 </article>
 
-<?php
-  snippet( 'cta' );
-  snippet( 'footer' );
-?>
+<?php snippet( 'footer' ) ?>
