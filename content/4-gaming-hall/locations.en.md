@@ -55,7 +55,7 @@ Locations:
   image: location-2.jpg
   title: Avellino (AV) – TimeCity
   text: |
-    **Indirizzo:**
+    **Address:**
     Viale Italia, 41
     83100 Avellino (AV)
     
