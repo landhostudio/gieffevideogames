@@ -1,24 +1,29 @@
 <?php if ( $page->team() ) : ?>
   <section class="team">
-    <h3 class="hidden"><?= l( 'team.title' ) ?></h3>
-    <?php foreach ( $page->team()->toStructure() as $person ) : ?>
-      <article class="person">
+    <div class="container">
+      <h3 class="team-title h2 text-color-3"><?= l( 'team.title' ) ?></h3>
 
-        <?php if ( $image = $page->image( $person->image() ) ) : ?>
-          <div class="person-image">
-            <?= thumb( $image, array( 'width' => 120, 'crop' => true ) ); ?>
-          </div>
-        <?php endif; ?>
+      <div class="team-items">
+        <?php foreach ( $page->team()->toStructure() as $person ) : ?>
+          <article class="team-item">
 
-        <div class="person-content">
-          <h4><?= $person->name(); ?></h4>
-          <p><?= $person->role(); ?></p>
-          <?php if ( $person->text() ) : ?>
-            <?= $person->text()->kirbytext() ?>
-          <?php endif; ?>
-        </div>
+            <?php if ( $image = $page->image( $person->image() ) ) : ?>
+              <div class="team-item-image">
+                <?= thumb( $image, array( 'width' => 96, 'height' => 96, 'crop' => true ) ); ?>
+              </div>
+            <?php endif; ?>
 
-      </article>
-    <?php endforeach; ?>
+            <div class="team-item-content">
+              <h4 class="h4 text-color-2"><?= $person->name(); ?></h4>
+              <p class="h4 text-color-3"><?= $person->role(); ?></p>
+              <?php if ( $person->text() ) : ?>
+                <?= $person->text()->kirbytext() ?>
+              <?php endif; ?>
+            </div>
+
+          </article>
+        <?php endforeach; ?>
+      </div>
+    </div>
   </section>
 <?php endif; ?>
