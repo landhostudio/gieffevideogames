@@ -8,10 +8,10 @@
         <?php if ( $site->CTAButtonTitle1() && $site->CTAButtonSubject1() && $site->CTAButtonEmail1() || $site->CTAButtonTitle2() && $site->CTAButtonSubject2() && $site->CTAButtonEmail2() ) : ?>
           <div class="cta-content-buttons">
             <?php if ( $site->CTAButtonTitle1() && $site->CTAButtonSubject1() && $site->CTAButtonEmail1() ) : ?>
-              <a href="mailto:<?= $site->CTAButtonEmail1()->html(); ?>" class="button<?php if ( $page->template() == 'virtual-reality' ) : ?> button--color-4<?php else : ?> button--color-2<?php endif; ?> button--l"><?= $site->CTAButtonTitle1()->html(); ?></a>
+              <a href="mailto:<?= $site->CTAButtonEmail1()->html(); ?>?subject=<?= $site->CTAButtonSubject1()->html(); ?>" class="button<?php if ( $page->template() == 'virtual-reality' ) : ?> button--color-4<?php else : ?> button--color-2<?php endif; ?> button--l"><?= $site->CTAButtonTitle1()->html(); ?></a>
             <?php endif; ?>
             <?php if ( $site->CTAButtonTitle2() && $site->CTAButtonSubject2() && $site->CTAButtonEmail2() || $site->CTAButtonTitle2() && $site->CTAButtonSubject2() && $site->CTAButtonEmail2() ) : ?>
-              <a href="mailto:<?= $site->CTAButtonEmail2()->html(); ?>" class="button<?php if ( $page->template() == 'virtual-reality' ) : ?> button--color-4<?php else : ?> button--color-2<?php endif; ?> button--l"><?= $site->CTAButtonTitle2()->html(); ?></a>
+              <a href="mailto:<?= $site->CTAButtonEmail2()->html(); ?>?subject=<?= $site->CTAButtonSubject2()->html(); ?>" class="button<?php if ( $page->template() == 'virtual-reality' ) : ?> button--color-4<?php else : ?> button--color-2<?php endif; ?> button--l"><?= $site->CTAButtonTitle2()->html(); ?></a>
             <?php endif; ?>
           </div>
         <?php endif; ?>
