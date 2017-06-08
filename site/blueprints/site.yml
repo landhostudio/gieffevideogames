@@ -1,6 +1,15 @@
 title: Site
 
-pages: default
+pages:
+  template:
+    - home
+    - products
+    - virtual-reality
+    - locations
+    - news
+    - about
+    - contact
+    - default
 
 fields:
   seoHeadline:
