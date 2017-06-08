@@ -87,43 +87,43 @@ fields:
 
   CTAButtonTitle1:
     label:
-      en: Title 1
-      it: Titolo 1
+      en: CTA title 1
+      it: CTA titolo 1
     type: text
     width: 1/3
 
   CTAButtonSubject1:
     label:
-      en: Subject 1
-      it: Oggetto 1
+      en: CTA subject 1
+      it: CTA oggetto 1
     type: text
     width: 1/3
 
   CTAButtonEmail1:
     label:
-      en: Email 1
-      it: Email 1
+      en: CTA email 1
+      it: CTA email 1
     type: email
     width: 1/3
-  
+
   CTAButtonTitle2:
     label:
-      en: Title 2
-      it: Titolo 2
+      en: CTA title 2
+      it: CTA titolo 2
     type: text
     width: 1/3
 
   CTAButtonSubject2:
     label:
-      en: Subject 2
-      it: Oggetto 2
+      en: CTA subject 2
+      it: CTA oggetto 2
     type: text
     width: 1/3
 
   CTAButtonEmail2:
     label:
-      en: Email 2
-      it: Email 2
+      en: CTA email 2
+      it: CTA email 2
     type: email
     width: 1/3
 
