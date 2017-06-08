@@ -10,8 +10,11 @@ pages:
   num: date
 
 options:
+  preview: true
   template: false
   status: false
+  url: true
+  delete: true
 
 fields:
   seoHeadline:

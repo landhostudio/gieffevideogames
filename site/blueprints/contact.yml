@@ -6,6 +6,13 @@ files: false
 
 pages: false
 
+options:
+  preview: true
+  template: false
+  status: true
+  url: true
+  delete: true
+
 fields:
   seoHeadline:
     label:

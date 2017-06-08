@@ -8,9 +8,10 @@ files:
 pages: false
 
 options:
-  status: false
+  status: true
   template: false
   url: false
+  delete: true
 
 fields:
   seoHeadline:

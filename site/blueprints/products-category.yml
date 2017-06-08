@@ -11,7 +11,11 @@ pages:
     - products-category
 
 options:
+  preview: true
   template: false
+  status: true
+  url: true
+  delete: true
 
 fields:
   seoHeadline:

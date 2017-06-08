@@ -2,6 +2,13 @@ title: Error
 
 pages: false
 
+options:
+  preview: true
+  template: false
+  status: false
+  url: false
+  delete: false
+
 fields:
   title:
     label: Title

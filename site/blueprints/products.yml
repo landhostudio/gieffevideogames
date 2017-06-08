@@ -8,8 +8,11 @@ pages:
   template: products-category
 
 options:
+  preview: true
   status: false
   template: false
+  url: true
+  delete: true
 
 fields:
 

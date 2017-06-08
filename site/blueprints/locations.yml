@@ -7,7 +7,15 @@ files:
 
 pages: false
 
+options:
+  preview: true
+  status: true
+  template: false
+  url: true
+  delete: true
+
 fields:
+
   seoHeadline:
     label:
       en: SEO
