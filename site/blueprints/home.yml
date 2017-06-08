@@ -7,6 +7,11 @@ files:
 
 pages: false
 
+options:
+  status: false
+  template: false
+  url: false
+
 fields:
   seoHeadline:
     label:
