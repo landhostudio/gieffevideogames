@@ -2,7 +2,7 @@ Title: Gieffe – Videogames
 
 ----
 
-Description: Descrizione dell’sito SEO
+Description: At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to an adjoining hall. It was evidently a court-room, and a crowd of Europeans and natives already occupied the rear of the apartment.
 
 ----
 
@@ -10,7 +10,7 @@ Copyright: Tutti i diritti riservati © (date: Year) Gieffe s.r.l. – P.Iva 000
 
 ----
 
-Keywords: gieffe,videogames
+Keywords: parola-chiave-1,parola-chiave-2
 
 ----
 
@@ -18,7 +18,7 @@ Ctatitle: Contatti
 
 ----
 
-Ctatext: Questa è la descrizione contatti
+Ctatext: At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to an adjoining hall. It was evidently a court-room, and a crowd of Europeans and natives already occupied the rear of the apartment.
 
 ----
 
@@ -30,7 +30,7 @@ Ctabuttonsubject1: Richiesta Tecnica:
 
 ----
 
-Ctabuttonemail1: roman@landhostudio.com
+Ctabuttonemail1: info@gieffevideogames.com
 
 ----
 
@@ -42,7 +42,7 @@ Ctabuttonsubject2: Richiesta Commerciale:
 
 ----
 
-Ctabuttonemail2: roman@landhostudio.com
+Ctabuttonemail2: info@gieffevideogames.com
 
 ----
 

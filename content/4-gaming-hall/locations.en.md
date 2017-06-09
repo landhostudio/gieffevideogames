@@ -2,7 +2,7 @@ Title: Gaming Hall
 
 ----
 
-Description: This is semantic Gaming Hall description
+Description: Description SEO of Gaming Hall
 
 ----
 
@@ -10,11 +10,11 @@ Tags: gaming hall
 
 ----
 
-Heroimage:
+Heroimage: 
 
 ----
 
-Herogallery:
+Herogallery: 
 
 ----
 
@@ -22,13 +22,13 @@ Herotitle: Gaming Hall
 
 ----
 
-Herotext: This is gaming hall description
+Herotext: At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to an adjoining hall. It was evidently a court-room, and a crowd of Europeans and natives already occupied the rear of the apartment.
 
 ----
 
-Locations:
+Locations: 
 
--
+- 
   image: location-1.jpg
   title: Caserta (CE) – Van Wittel
   text: |
@@ -51,7 +51,7 @@ Locations:
     - Smoking room and non-smoking room
     - Convenced parking
     - Refreshment point
--
+- 
   image: location-2.jpg
   title: Avellino (AV) – TimeCity
   text: |
@@ -77,7 +77,7 @@ Locations:
     - Parcheggio Convenzionato
     - Radio Timecity
     - Bar
--
+- 
   image: location-3.jpg
   title: Frosinone (FR) – TimeCity
   text: |
@@ -102,7 +102,7 @@ Locations:
     - Sala fumatori e sala non fumatori
     - Wi-Fi Gratuito
     - Servizi Lottomatica (Gratta E Vinci, Punto Lis, Ricarica Cellulare, Pagamento Bollette, Lottomaticard)
--
+- 
   image: location-4.jpg
   title: Pontecagnano (SA) – TimeCity
   text: |
@@ -127,7 +127,7 @@ Locations:
     - Servizi Lottomatica (Gratta E Vinci, Punto Lis, Ricarica Cellulare, Pagamento Bollette, Lottomaticard)
     - Wi-Fi Gratuito
     - Bar
--
+- 
   image: location-5.jpg
   title: Salerno (SA) – TimeCity
   text: |
@@ -155,7 +155,7 @@ Locations:
     - Servizi Lottomatica (Gratta E Vinci, Punto Lis, Ricarica Cellulare, Pagamento Bollette, Lottomaticard)
     - Wi-Fi Gratuito
     - Radio Timecity
--
+- 
   image: location-6.jpg
   title: Sirignano (AV) – TimeCity
   text: |

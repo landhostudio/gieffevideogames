@@ -42,7 +42,11 @@ Sections:
 
 - 
   title: Realtà Virtuale
-  description: Questa è la sezione VR.
+  description: >
+    At half-past eight the door opened, the
+    policeman appeared, and, requesting them
+    to follow him, led the way to an
+    adjoining hall.
   link: products
   url: products
   image: home-section-1.jpg
@@ -50,7 +54,11 @@ Sections:
   ctaurl: realta-virtuale
 - 
   title: Prodotti
-  description: Questa è la sezione prodotti
+  description: >
+    At half-past eight the door opened, the
+    policeman appeared, and, requesting them
+    to follow him, led the way to an
+    adjoining hall.
   link: products
   url: blog/extending-kirby
   image: home-section-2.jpg
@@ -59,7 +67,11 @@ Sections:
   ctaurl: prodotti
 - 
   title: Gaming Hall
-  description: Questa è la sezione gaming hall
+  description: >
+    At half-past eight the door opened, the
+    policeman appeared, and, requesting them
+    to follow him, led the way to an
+    adjoining hall.
   link: products
   url: products
   image: home-section-3.jpg
