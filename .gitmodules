@@ -10,3 +10,6 @@
 [submodule "site/plugins/images"]
 	path = site/plugins/images
 	url = https://github.com/medienbaecker/kirby-images.git
+[submodule "site/plugins/compress"]
+	path = site/plugins/compress
+	url = https://github.com/iksi/KirbyCompress.git
