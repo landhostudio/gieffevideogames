@@ -157,3 +157,12 @@ fields:
   copyright:
     label: Copyright
     type:  textarea
+
+  live:
+    label:
+      en: Search Engine Visibility
+      it: Visibilità ai motori di ricerca
+    type: checkbox
+    text:
+      en: Discourage search engines from indexing this site
+      it: Scoraggia i motori di ricerca ad effettuare l'indicizzazione di questo sito
