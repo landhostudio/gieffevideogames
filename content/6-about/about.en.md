@@ -10,7 +10,7 @@ Tags: about
 
 ----
 
-Heroimage: vapor-up.jpg
+Heroimage: 
 
 ----
 
