@@ -13,15 +13,7 @@
       </div>
     <?php endif; ?>
 
-    <?php if ( $image = $page->heroImage()->toFile() ) : ?>
-      <div class="hero-image">
-        <div class="hero-image-container">
-          <?= thumb( $image, array( 'width' => 1440, 'height' => 600, 'crop' => true ) ) ?>
-        </div>
-      </div>
-    <?php endif; ?>
-
-    <?php if ( $page->heroGallery()->isNotEmpty() ): ?>
+    <?php if ( $page->heroGallery()->isNotEmpty() ) : ?>
       <div class="hero-gallery">
         <div class="hero-gallery-flickity<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-3<?php endif; ?>">
           <?php foreach ( $page->heroGallery()->yaml() as $image ) : ?>
@@ -31,6 +23,12 @@
               </div>
             <?php endif ?>
           <?php endforeach; ?>
+        </div>
+      </div>
+    <?php elseif ( $image = $page->heroImage()->toFile() ) : ?>
+      <div class="hero-image">
+        <div class="hero-image-container">
+          <?= thumb( $image, array( 'width' => 1440, 'height' => 600, 'crop' => true ) ) ?>
         </div>
       </div>
     <?php endif; ?>
