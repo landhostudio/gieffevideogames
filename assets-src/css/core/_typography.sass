@@ -16,12 +16,16 @@ h6, .h6
   margin: 0
 
 h1, .h1
-  font-size: em-calc(52)
+  font-size: em-calc(32)
   letter-spacing: - em-calc(1)
+  @include media($size-s-min)
+    font-size: em-calc(52)
 
 h2, .h2
-  font-size: em-calc(44)
+  font-size: em-calc(24)
   letter-spacing: - em-calc(1)
+  @include media($size-s-min)
+    font-size: em-calc(44)
 
 h3, .h3
   font-size: em-calc(20)
