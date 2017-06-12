@@ -43,7 +43,7 @@
         <?php endif; ?>
 
         <?php if ( $page->heroText()->isNotEmpty() ) : ?>
-          <p><?= $page->heroText()->html(); ?></p>
+          <?= $page->heroText()->kirbytext() ?>
         <?php else : ?>
           <p><?= $page->description()->html(); ?></p>
         <?php endif; ?>
