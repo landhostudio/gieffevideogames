@@ -15,10 +15,7 @@
 
             <div class="team-item-content">
               <h4 class="h4 text-color-2"><?= $person->name(); ?></h4>
-              <p class="h4 text-color-3"><?= $person->role(); ?></p>
-              <?php if ( $person->text() ) : ?>
-                <?= $person->text()->kirbytext() ?>
-              <?php endif; ?>
+              <p class="h5 text-color-3"><?= $person->role(); ?></p>
             </div>
 
           </article>
