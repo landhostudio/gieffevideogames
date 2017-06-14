@@ -15,4 +15,4 @@ l::set( 'pagination.title',       'Paginazione' );
 l::set( 'pagination.prev',        '&laquo; Precedente' );
 l::set( 'pagination.next',        'Successiva &raquo;' );
 l::set( 'breadcrumb.prev',        '&laquo; Indietro' );
-l::set( 'none.title',             'Nessun contenuto' );
+l::set( 'none.title',             'Il contenuto non può essere trovato' );

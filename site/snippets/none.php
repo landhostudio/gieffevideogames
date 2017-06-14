@@ -1,1 +1,5 @@
-<h2><?= l( 'none.title' ) ?></h2>
+<div class="body">
+  <div class="container">
+    <p><?= l( 'none.title' ) ?></p>
+  </div>
+</div>
