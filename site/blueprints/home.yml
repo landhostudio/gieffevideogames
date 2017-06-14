@@ -128,6 +128,8 @@ fields:
           it: Descrizione
         type: textarea
         buttons: false
+        validate:
+          maxLength: 150
         required: true
 
       CTATitle:
