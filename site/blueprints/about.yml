@@ -124,8 +124,3 @@ fields:
         type: text
         width: 1/2
         required: true
-      text:
-        label:
-          en: Description
-          it: Descrizione
-        type: textarea
