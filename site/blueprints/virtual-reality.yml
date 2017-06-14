@@ -28,6 +28,9 @@ fields:
       en: Description
       it: Descrizione
     type: textarea
+    buttons: false
+    validate:
+      maxLength: 160
 
   tags:
     label:
