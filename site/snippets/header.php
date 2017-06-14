@@ -9,7 +9,7 @@
     <meta name="description" content="<?php if ( $site->description() ) : ?><?= $site->description()->html() ?><?php elseif ( $page->description() ) : ?><?= $page->description()->html() ?><?php endif; ?>">
     <meta name="keywords" content="<?php if ( $site->keywords() ) : ?><?= $site->keywords()->html() ?><?php elseif ( $page->keywords() ) : ?><?= $page->keywords()->html() ?><?php endif; ?>">
     <meta name="robots" content="<?php if ( $site->live() == '1' ) : ?>noindex, nofollow<?php else : ?>index, follow<?php endif; ?>">
-    <?= css('assets/css/main.css') ?>
+    <?= css( 'assets/css/all.css' ) ?>
   </head>
   <body>
     <header role="banner" class="header">
