@@ -73,3 +73,6 @@ fields:
       en: Description
       it: Descrizione
     type: textarea
+    buttons: false
+    validate:
+      maxLength: 250
