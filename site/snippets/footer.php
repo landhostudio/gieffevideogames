@@ -63,11 +63,6 @@
       <?= js( 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB-7QytKMD90pKwOssSFELz40Cemx1MXgU' ) ?>
     <?php endif; ?>
 
-    <?=
-      js(array(
-        'assets/js/vendor.js',
-        'assets/js/main.js'
-      ))
-    ?>
+    <?= js( 'assets/js/all.js' ) ?>
   </body>
 </html>

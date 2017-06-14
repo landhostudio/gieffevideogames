@@ -61,7 +61,7 @@ gulp.task('stylesheets', function() {
 });
 
 gulp.task('scripts', function() {
-  return gulp.src(source + '/js/{vendor,main}.js')
+  return gulp.src(source + '/js/all.js')
     .pipe(include())
     .pipe(uglify())
     .pipe(gulp.dest(destination + '/js'))
