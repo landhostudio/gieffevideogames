@@ -12,6 +12,8 @@
       padding-left: $space
       padding-right: $space
   &-map
+    @include media(max-width $size-s-max)
+      margin-bottom: $space
     &-content
       position: relative
       padding-bottom: per-width(16,9)
