@@ -110,6 +110,9 @@ fields:
           en: Image
           it: Immagine
         type: image
+        help:
+          en: 'Recommended: image with ratio 1:1 (square) 256px wide'
+          it: 'Consigliato: immagine con il rapporto 1:1 (quadrata) larga almeno 256px'
       name:
         label:
           en: Name
