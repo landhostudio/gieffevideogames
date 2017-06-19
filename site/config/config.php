@@ -31,7 +31,7 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 c::set('debug', true);
 
-// c::set('whoops', false);
+c::set('whoops', false);
 
 c::set('compress', true);
 
@@ -39,18 +39,18 @@ c::set('content.file.extension','md');
 
 c::set('languages', array(
   array(
-    'code'    => 'en',
-    'name'    => 'English',
-    'default' => true,
-    'locale'  => 'en_US',
-    'url'     => '/',
-  ),
-  array(
     'code'    => 'it',
     'name'    => 'Italiano',
     'locale'  => 'it-IT',
-    'url'     => '/it',
+    'default' => true,
+    'url'     => '/',
   ),
+  array(
+    'code'    => 'en',
+    'name'    => 'English',
+    'locale'  => 'en_US',
+    'url'     => '/en',
+  )
 ));
 
 c::set('map.key', 'AIzaSyB-7QytKMD90pKwOssSFELz40Cemx1MXgU');
