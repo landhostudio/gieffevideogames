@@ -9,13 +9,13 @@
 
             <?php if ( $image = $page->image( $person->image() ) ) : ?>
               <div class="team-item-image">
-                <?= thumb( $image, array( 'width' => 96, 'height' => 96, 'crop' => true ) ); ?>
+                <?= thumb( $image, array( 'width' => 256, 'height' => 256, 'crop' => true ) ); ?>
               </div>
             <?php endif; ?>
 
             <div class="team-item-content">
-              <h4 class="h4 text-color-2"><?= $person->name(); ?></h4>
-              <p class="h5 text-color-3"><?= $person->role(); ?></p>
+              <h4 class="h3 text-color-2"><?= $person->name(); ?></h4>
+              <p class="h4 text-color-3"><?= $person->role(); ?></p>
             </div>
 
           </article>
