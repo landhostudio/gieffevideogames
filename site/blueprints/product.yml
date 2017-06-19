@@ -54,6 +54,9 @@ fields:
       en: Image
       it: Immagine
     type: image
+    help:
+      en: 'Recommended: image with ratio 1:1 (square) 1200px wide, with transparency'
+      it: 'Consigliato: immagine con il rapporto 1:1 (quadrata) larga 1200px, con la trasparenza'
 
   heroTitle:
     label:
@@ -81,6 +84,9 @@ fields:
       en: Gallery
       it: Galleria
     type: images
+    help:
+      en: 'Recommended: bigger image even 1920px wide, with transparency'
+      it: 'Consigliato: immagine grande 1920px larga, con la trasparenza'
 
   iframe:
     label:
