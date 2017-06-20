@@ -8,10 +8,10 @@
     <?php endif; ?>
 
     <div class="products-preview-content">
-      <?php if ( $product->heroTitle() ): ?>
-        <h3 class="<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-2<?php endif; ?>"><?= $product->heroTitle()->html() ?></h3>
+      <?php if ( $product->heroTitle()->isNotEmpty() ): ?>
+        <h3 class="<?php if ( $page->template() == 'virtual-reality' ) : ?>text-color-4<?php else : ?>text-color-2<?php endif; ?>"><?= $product->heroTitle()->html() ?></h3>
       <?php else : ?>
-        <h3 class="<?php if ( $page->template() == 'virtual-reality' ) : ?> text-color-4<?php else : ?> text-color-2<?php endif; ?>"><?= $product->title()->html() ?></h3>
+        <h3 class="<?php if ( $page->template() == 'virtual-reality' ) : ?>text-color-4<?php else : ?>text-color-2<?php endif; ?>"><?= $product->title()->html() ?></h3>
       <?php endif; ?>
     </div>
   </a>
