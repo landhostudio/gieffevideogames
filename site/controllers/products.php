@@ -2,11 +2,9 @@
 
   return function ( $site, $pages, $page ) {
 
-    $products = $page->children()
-                     ->visible();
+    // Fetch the basic set of pages
+    $products = $page->children()->visible();
 
-    return [
-      'products'   => $products
-    ];
+    return compact('products');
 
   };
