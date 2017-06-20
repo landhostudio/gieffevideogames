@@ -6,6 +6,7 @@ files:
   type: image
 
 pages:
+  sort: flip
   template:
     - product
     - products-category

@@ -2,13 +2,16 @@
 
   return function ( $site, $pages, $page ) {
 
-    $products = $page->children()
-                     ->visible()
-                     ->paginate(12);
+    // Fetch the basic set of pages
+    $products = $page->children()->visible();
 
-    return [
-      'products'   => $products,
-      'pagination' => $products->pagination()
-    ];
+    // Reverse the order
+    $products = $products->flip();
+
+    // Apply pagination
+    $products = $products->paginate(12);
+    $pagination = $products->pagination();
+
+    return compact('products', 'pagination');
 
   };
