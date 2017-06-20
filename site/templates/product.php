@@ -6,7 +6,7 @@
 
   <?php snippet( 'body', array( 'columns' => 'yes' ) ); ?>
 
-  <?php if ( $page->specs() ) : ?>
+  <?php if ( $page->specs()->isNotEmpty() ) : ?>
     <section class="specs">
       <div class="container">
         <h3 class="specs-title h2 text-color-3"><?= l( 'product.specs' ) ?></h3>
