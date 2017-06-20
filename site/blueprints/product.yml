@@ -55,8 +55,9 @@ fields:
       it: Immagine
     type: image
     help:
-      en: 'Recommended: image with ratio 1:1 (square) 1200px wide, with transparency'
-      it: 'Consigliato: immagine con il rapporto 1:1 (quadrata) larga 1200px, con la trasparenza'
+      en: 'Recommended: images with ratio 1:1 (square) 1200px wide, with transparency'
+      it: 'Consigliato: immagini con il rapporto 1:1 (quadrata) larga 1200px, con la trasparenza'
+    required: true
 
   heroTitle:
     label:
