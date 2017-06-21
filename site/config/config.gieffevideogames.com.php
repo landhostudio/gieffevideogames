@@ -15,7 +15,7 @@ for more information: http://getkirby.com/license
 
 */
 
-c::set('license', 'put your license key here');
+c::set('license', 'put your license key here'); /* For repository we remove the license */
 
 /*
 
@@ -29,11 +29,11 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
-c::set('debug', true);
-
-c::set('whoops', false);
-
 c::set('content.file.extension', 'md');
+
+c::set('thumbs.driver', 'im');
+
+c::set('thumbs.bin', '/usr/bin/convert');
 
 c::set('languages', array(
   array(
@@ -53,4 +53,4 @@ c::set('languages', array(
 
 c::set('map.key', 'AIzaSyB-7QytKMD90pKwOssSFELz40Cemx1MXgU');
 
-c::set('compress', false);
+c::set('compress', true);
