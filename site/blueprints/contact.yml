@@ -51,6 +51,7 @@ fields:
       en: Map
       it: Mappa
     type: map
+    translate: false
     center:
       lat: 41.86956082
       lng: 12.48046875
