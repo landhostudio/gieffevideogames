@@ -52,6 +52,7 @@ fields:
       en: Partners
       it: Partners
     type: structure
+    translate: false
     entry: >
       {{url}}
     modalsize: small
@@ -146,6 +147,7 @@ fields:
       en: Facebook
       it: Facebook
     type: url
+    translate: false
     width: 1/3
 
   youtube:
@@ -153,6 +155,7 @@ fields:
       en: YouTube
       it: YouTube
     type: url
+    translate: false
     width: 1/3
 
   instagram:
@@ -160,6 +163,7 @@ fields:
       en: Instagram
       it: Instagram
     type: url
+    translate: false
     width: 1/3
 
   copyright:
@@ -171,6 +175,7 @@ fields:
       en: Search Engine Visibility
       it: Visibilità ai motori di ricerca
     type: checkbox
+    translate: false
     text:
       en: Discourage search engines from indexing this site
       it: Scoraggia i motori di ricerca ad effettuare l'indicizzazione di questo sito
