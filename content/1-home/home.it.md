@@ -78,3 +78,7 @@ Sections:
   gallery: ""
   ctatitle: Leggi tutto
   ctaurl: gaming-hall
+
+----
+
+Heroicon: 

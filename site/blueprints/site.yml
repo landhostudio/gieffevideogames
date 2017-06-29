@@ -12,34 +12,9 @@ pages:
     - default
 
 fields:
-  seoHeadline:
-    label:
-      en: SEO
-      it: SEO
-    type: headline
 
-  title:
-    label:
-      en: Title
-      it: Titolo
-    type: text
-
-  description:
-    label:
-      en: Description
-      it: Descrizione
-    type: textarea
-    buttons: false
-    validate:
-      maxLength: 160
-
-  keywords:
-    label:
-      en: Keywords
-      it: Keywords
-    type: tags
-    lower: true
-    index: all
+  seo:
+    extends: seo
 
   partnersHeadline:
     label:
