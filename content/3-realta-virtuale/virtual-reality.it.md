@@ -10,11 +10,11 @@ Tags: realità virtuale
 
 ----
 
-Heroimage:
+Heroimage: 
 
 ----
 
-Herogallery:
+Herogallery: 
 
 - home-gallery-1.jpg
 - home-gallery-2.jpg
@@ -30,9 +30,9 @@ Herotext: At half-past eight the door opened, the policeman appeared, and, reque
 
 ----
 
-Sections:
+Sections: 
 
--
+- 
   image: home-gallery-1.jpg
   title: Caratteristica 1
   description: >
@@ -40,7 +40,7 @@ Sections:
     policeman appeared, and, requesting them
     to follow him, led the way to an
     adjoining hall.
--
+- 
   image: home-gallery-2.jpg
   title: Caratteristica 2
   description: >
@@ -48,7 +48,7 @@ Sections:
     policeman appeared, and, requesting them
     to follow him, led the way to an
     adjoining hall.
--
+- 
   image: home-gallery-3.jpg
   title: Caratteristica 3
   description: >
@@ -59,16 +59,16 @@ Sections:
 
 ----
 
-Products:
+Products: 
 
--
-  product: prodotti/categoria-prodotti-1/prodotto-1
--
-  product: prodotti/categoria-prodotti-1/prodotto-2
--
-  product: prodotti/categoria-prodotti-1/prodotto-3
--
-  product: prodotti/categoria-prodotti-1/prodotto-4
+- 
+  product: prodotti/categoria-1/prodotto-1
+- 
+  product: prodotti/categoria-1/prodotto-2
+- 
+  product: prodotti/categoria-1/prodotto-3
+- 
+  product: prodotti/categoria-1/prodotto-4
 
 ----
 
@@ -76,4 +76,4 @@ Productsctatitle: Tutti VR Prodotti
 
 ----
 
-Productsctaurl: prodotti/categoria-prodotti-1
+Productsctaurl: prodotti/categoria-1

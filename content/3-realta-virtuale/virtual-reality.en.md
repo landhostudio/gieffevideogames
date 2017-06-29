@@ -62,13 +62,13 @@ Sections:
 Products: 
 
 - 
-  product: products/products-category-1/product-1
+  product: products/category-1/product-1
 - 
-  product: products/products-category-1/product-2
+  product: products/category-1/product-2
 - 
-  product: products/products-category-1/product-3
+  product: products/category-1/product-3
 - 
-  product: products/products-category-1/product-4
+  product: products/category-1/product-4
 
 ----
 
@@ -76,7 +76,7 @@ Productsctatitle: All VR Products
 
 ----
 
-Productsctaurl: products/products-category-1
+Productsctaurl: products/category-1
 
 ----
 

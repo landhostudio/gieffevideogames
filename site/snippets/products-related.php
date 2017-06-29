@@ -7,9 +7,11 @@
       <div class="products">
         <?php
           foreach ( $page->products()->toStructure() as $related ) :
-          $product = $site->index()->findByURI($related->product());
+          $product = $site->index()->findByURI( $related->product() );
         ?>
-          <?php snippet( 'product-preview', array('product' => $product ) ); ?>
+          <?php if ( $product ) : ?>
+            <?php snippet( 'product-preview', array( 'product' => $product ) ); ?>
+          <?php endif; ?>
         <?php endforeach; ?>
       </div>
 

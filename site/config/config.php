@@ -31,7 +31,7 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 c::set('debug', true);
 
-c::set('whoops', false);
+c::set('whoops', true);
 
 c::set('content.file.extension', 'md');
 
