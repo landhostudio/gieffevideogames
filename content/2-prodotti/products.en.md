@@ -1,16 +1,16 @@
-Title: News
+Title: Products
 
 ----
 
-Description: Blog SEO description
+Description: Products SEO description
 
 ----
 
-Tags: news
+Tags: products
 
 ----
 
-Herotitle: News
+Herotitle: Products
 
 ----
 
@@ -18,4 +18,12 @@ Herotext: At half-past eight the door opened, the policeman appeared, and, reque
 
 ----
 
-Url-key: news
+Heroimage: 
+
+----
+
+Herogallery: 
+
+----
+
+Url-key: products
