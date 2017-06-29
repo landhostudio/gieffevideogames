@@ -43,57 +43,11 @@ fields:
     lower: true
     index: all
 
-  heroHeadline:
-    label:
-      en: Hero
-      it: Hero
-    type: headline
-
-  heroImage:
-    label:
-      en: Image
-      it: Immagine
-    type: image
-
-  heroGallery:
-    label:
-      en: Gallery
-      it: Galleria
-    type: images
-
-  heroTitle:
-    label:
-      en: Title
-      it: Titolo
-    type: text
-
-  heroText:
-    label:
-      en: Description
-      it: Descrizione
-    type: textarea
-    buttons: false
-    validate:
-      maxLength: 250
-
-  heroCTATitle:
-    label:
-      en: CTA name
-      it: Nome CTA
-    type: text
-    width: 1/2
-
-  heroCTAUrl:
-    label:
-      en: CTA link
-      it: Link CTA
-    width: 1/2
-    type: quickselect
-    options: query
-    query:
-      fetch: pages
-      value: '{{uri}}'
-      text: '{{title}}'
+  hero:
+    extends: hero
+    fields:
+      heroIcon:
+        type: hidden
 
   sectionsHeadline:
     label: Sections

@@ -43,3 +43,19 @@ Herotext: At half-past eight the door opened, the policeman appeared, and, reque
 ----
 
 Heroimage: post-1.jpg
+
+----
+
+Heroicon: 
+
+----
+
+Herogallery: 
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

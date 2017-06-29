@@ -54,26 +54,14 @@ fields:
       it: Hero
     type: headline
 
-  heroIcon:
-    label:
-      en: Icon
-      it: Icona
-    type: image
-    help:
-      en: 'Recommended: size 96px by 96px and svg format'
-      it: 'Consigliato: dimensione 96px per 96px e formato svg'
-
-  heroTitle:
-    label:
-      en: Title
-      it: Titolo
-    type: text
-
-  heroText:
-    label:
-      en: Description
-      it: Descrizione
-    type: textarea
-    buttons: false
-    validate:
-      maxLength: 250
+  hero:
+    extends: hero
+    fields:
+      heroImage:
+        type: hidden
+      heroGallery:
+        type: hidden
+      heroCTATitle:
+        type: hidden
+      heroCTAUrl:
+        type: hidden

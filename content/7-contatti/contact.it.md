@@ -10,11 +10,11 @@ Tags: contatti
 
 ----
 
-Heroimage:
+Heroimage: 
 
 ----
 
-Herogallery:
+Herogallery: 
 
 ----
 
@@ -30,10 +30,23 @@ Text: Testo della pagina contatti
 
 ----
 
-Map:
+Map: 
 
 address: >
   Viale Guglielmo Marconi, 112, 80020
   Casavatore NA
 lat: "40.8976535"
 lng: "14.27687149999997"
+zoom: ""
+
+----
+
+Heroicon: 
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

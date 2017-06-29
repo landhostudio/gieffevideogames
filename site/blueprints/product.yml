@@ -43,36 +43,22 @@ fields:
     lower: true
     index: all
 
-  heroHeadline:
-    label:
-      en: Hero
-      it: Hero
-    type: headline
-
-  heroImage:
-    label:
-      en: Image
-      it: Immagine
-    type: image
-    help:
-      en: 'Recommended: images with ratio 1:1 (square) 1200px wide, with transparency'
-      it: 'Consigliato: immagini con il rapporto 1:1 (quadrata) larga 1200px, con la trasparenza'
-    required: true
-
-  heroTitle:
-    label:
-      en: Title
-      it: Titolo
-    type: text
-
-  heroText:
-    label:
-      en: Description
-      it: Descrizione
-    type: textarea
-    buttons: false
-    validate:
-      maxLength: 250
+  hero:
+    extends: hero
+    fields:
+      heroIcon:
+        type: hidden
+      heroImage:
+        help:
+          en: 'Recommended: images with ratio 1:1 (square) 1200px wide, with transparency'
+          it: 'Consigliato: immagini con il rapporto 1:1 (quadrata) larga 1200px, con la trasparenza'
+        required: true
+      heroGallery:
+        type: hidden
+      heroCTATitle:
+        type: hidden
+      heroCTAUrl:
+        type: hidden
 
   productHeadline:
     label:
@@ -85,6 +71,7 @@ fields:
       en: Gallery
       it: Galleria
     type: images
+    translate: false
     help:
       en: 'Recommended: bigger image even 1920px wide, with transparency'
       it: 'Consigliato: immagine grande 1920px larga, con la trasparenza'

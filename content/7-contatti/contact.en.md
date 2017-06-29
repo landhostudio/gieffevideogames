@@ -10,14 +10,6 @@ Tags: contact
 
 ----
 
-Heroimage: 
-
-----
-
-Herogallery: 
-
-----
-
 Herotitle: Contact
 
 ----
@@ -50,7 +42,16 @@ address: >
   Casavatore NA
 lat: "40.8976535"
 lng: "14.27687149999997"
+zoom: ""
 
 ----
 
 Url-key: contact
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

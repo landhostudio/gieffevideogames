@@ -10,18 +10,6 @@ Tags: virtual reality
 
 ----
 
-Heroimage: 
-
-----
-
-Herogallery: 
-
-- home-gallery-1.jpg
-- home-gallery-2.jpg
-- home-gallery-3.jpg
-
-----
-
 Herotitle: Virtual Reality
 
 ----
@@ -81,3 +69,11 @@ Productsctaurl: products/category-1
 ----
 
 Url-key: virtual-reality
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

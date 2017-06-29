@@ -10,14 +10,6 @@ Tags: gaming hall
 
 ----
 
-Heroimage: 
-
-----
-
-Herogallery: 
-
-----
-
 Herotitle: Gaming Hall
 
 ----
@@ -179,3 +171,11 @@ Locations:
     - Servizio Bar
     - Radio Timecity
     - Wi-fi gratuito
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

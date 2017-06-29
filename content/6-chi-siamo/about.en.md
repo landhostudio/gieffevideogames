@@ -10,14 +10,6 @@ Tags: about
 
 ----
 
-Heroimage: vapor-up.jpg
-
-----
-
-Herogallery: 
-
-----
-
 Herotitle: About
 
 ----
@@ -75,3 +67,11 @@ Team:
 ----
 
 Url-key: about
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

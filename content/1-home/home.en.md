@@ -10,18 +10,6 @@ Tags: keyword 1,keyword 2
 
 ----
 
-Heroimage: home-gallery-1.jpg
-
-----
-
-Herogallery: 
-
-- home-gallery-1.jpg
-- home-gallery-2.jpg
-- home-gallery-3.jpg
-
-----
-
 Herotitle: Games solutions
 
 ----

@@ -1,0 +1,58 @@
+type: group
+fields:
+  heroHeadline:
+    label:
+      en: Hero
+      it: Hero
+    type: headline
+  heroIcon:
+    label:
+      en: Icon
+      it: Icona
+    type: image
+    translate: false
+    help:
+      en: 'Recommended: size 96px by 96px and svg format'
+      it: 'Consigliato: dimensione 96px per 96px e formato svg'
+  heroImage:
+    label:
+      en: Image
+      it: Immagine
+    type: image
+    translate: false
+  heroGallery:
+    label:
+      en: Gallery
+      it: Galleria
+    type: images
+    translate: false
+  heroTitle:
+    label:
+      en: Title
+      it: Titolo
+    type: text
+  heroText:
+    label:
+      en: Description
+      it: Descrizione
+    type: textarea
+    buttons: false
+    validate:
+      maxLength: 250
+  heroCTATitle:
+    label:
+      en: CTA name
+      it: Nome CTA
+    type: text
+    width: 1/2
+  heroCTAUrl:
+    label:
+      en: CTA link
+      it: Link CTA
+    width: 1/2
+    type: quickselect
+    options: query
+    query:
+      fetch: pages
+      value: '{{uri}}'
+      text: '{{title}}'

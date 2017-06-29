@@ -18,10 +18,6 @@ Heroheadline:
 
 ----
 
-Heroimage: google.png
-
-----
-
 Herotitle: Product 2
 
 ----
@@ -31,10 +27,6 @@ Herotext: At half-past eight the door opened, the policeman appeared, and, reque
 ----
 
 Productheadline: 
-
-----
-
-Gallery: 
 
 ----
 
@@ -63,3 +55,11 @@ Specs:
 ----
 
 Url-key: product-2
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

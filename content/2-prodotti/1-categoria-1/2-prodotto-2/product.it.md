@@ -1,4 +1,4 @@
-Seoheadline:
+Seoheadline: 
 
 ----
 
@@ -14,7 +14,7 @@ Tags: prodotto 2
 
 ----
 
-Heroheadline:
+Heroheadline: 
 
 ----
 
@@ -30,11 +30,11 @@ Herotext: At half-past eight the door opened, the policeman appeared, and, reque
 
 ----
 
-Productheadline:
+Productheadline: 
 
 ----
 
-Gallery:
+Gallery: 
 
 ----
 
@@ -42,11 +42,11 @@ Iframe: https://www.youtube.com/watch?v=8RkX8TYobHs
 
 ----
 
-Document:
+Document: 
 
 ----
 
-Bodyheadline:
+Bodyheadline: 
 
 ----
 
@@ -54,8 +54,24 @@ Text: Product 2 text
 
 ----
 
-Specsheadline:
+Specsheadline: 
 
 ----
 
 Specs: 
+
+----
+
+Heroicon: 
+
+----
+
+Herogallery: 
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

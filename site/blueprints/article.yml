@@ -41,52 +41,36 @@ fields:
     lower: true
     index: all
 
-  heroHeadline:
-    label:
-      en: Hero
-      it: Hero
-    type: headline
-
-  heroImage:
-    label:
-      en: Image
-      it: Immagine
-    type: image
-
-  heroTitle:
-    label:
-      en: Title
-      it: Titolo
-    type: text
-
-  heroText:
-    label:
-      en: Description
-      it: Descrizione
-    type: textarea
-    buttons: false
-    validate:
-      maxLength: 250
-
-  date:
-    icon: calendar
-    label: Date
-    type: date
-    format: LL
-    placeholder: Select a date…
-    default: today
-    required: true
-    width: 1/2
-
-  categories:
-    label:
-      en: Categories
-      it: Categorie
-    type: tags
-    lower: true
-    index: template
-    required: true
-    width: 1/2
+  hero:
+    extends: hero
+    fields:
+      heroIcon:
+        type: hidden
+      heroGallery:
+        type: hidden
+      heroCTATitle:
+        type: hidden
+      heroCTAUrl:
+        type: hidden
+      date:
+        icon: calendar
+        label: Date
+        type: date
+        format: LL
+        placeholder: Select a date…
+        default: today
+        required: true
+        translate: false
+        width: 1/2
+      categories:
+        label:
+          en: Categories
+          it: Categorie
+        type: tags
+        lower: true
+        index: template
+        required: true
+        width: 1/2
 
   bodyHeadline:
     label:

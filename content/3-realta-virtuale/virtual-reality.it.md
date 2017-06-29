@@ -76,4 +76,16 @@ Productsctatitle: Tutti VR Prodotti
 
 ----
 
-Productsctaurl: prodotti/categoria-1
+Productsctaurl: 
+
+----
+
+Heroicon: 
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 

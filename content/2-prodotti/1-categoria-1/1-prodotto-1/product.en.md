@@ -10,10 +10,6 @@ Tags: product 1
 
 ----
 
-Heroimage: htc.png
-
-----
-
 Herotitle: Product 1
 
 ----
@@ -138,3 +134,11 @@ Specs:
 ----
 
 Url-key: product-1
+
+----
+
+Heroctatitle: 
+
+----
+
+Heroctaurl: 
