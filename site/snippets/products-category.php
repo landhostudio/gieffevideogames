@@ -12,12 +12,16 @@
     <?php endif; ?>
 
     <div class="products-category-content">
-      <?php if ( $product->heroTitle() && $product->heroText() ): ?>
+      <?php if ( $product->heroTitle()->isNotEmpty() && $product->heroText()->isNotEmpty() ): ?>
         <h3 class="h4 text-color-2"><?= $product->heroTitle()->html() ?></h3>
-        <p class="text-color-3"><?= $product->heroText()->html() ?></p>
+        <?php if ( $product->heroText()->isNotEmpty() ): ?>
+          <p class="text-color-3"><?= $product->heroText()->html() ?></p>
+        <?php endif; ?>
       <?php else : ?>
         <h3 class="h4 text-color-2"><?= $product->title()->html() ?></h3>
-        <p class="text-color-3"><?= $product->description()->html() ?></p>
+        <?php if ( $product->description()->isNotEmpty() ): ?>
+          <p class="text-color-3"><?= $product->description()->html() ?></p>
+        <?php endif; ?>
       <?php endif; ?>
     </div>
   </a>
