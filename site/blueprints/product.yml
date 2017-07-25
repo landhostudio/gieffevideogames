@@ -59,7 +59,7 @@ fields:
     width: 1/2
     help:
       en: 'Link of full url of YouTube or Vimeo'
-      it: 'Link dell’intero url da YouTube o Vimeo'
+      it: 'Link intero da YouTube o Vimeo'
 
   document:
     label:
