@@ -21,8 +21,16 @@
       border: $border-4
       box-shadow: $glow-4
       border-radius: rem-calc(3)
+      transition: all 250ms
       @include media($size-s-min)
         padding: $space * 2
+      
+      &:hover
+        box-shadow: $glow-interact-4
+        background-color: lighten($color-1, 1.5%)
+        .products-category-image--has-svg
+          filter: drop-shadow(0 0 rem-calc(10) $color-3)
+      
     &-image
       margin-right: $space
       line-height: 0
@@ -30,6 +38,7 @@
         margin-right: $space * 2
       &--has-svg
         filter: drop-shadow(0 0 rem-calc(6) $color-3)
+        transition: all 250ms ease-in-out
         svg
           color: $color-3
           width: rem-calc(64)
